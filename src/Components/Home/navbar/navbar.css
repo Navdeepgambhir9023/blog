@@ -1,0 +1,173 @@
+.nav-div {
+    display: flex;
+    width: 60%;
+    margin: auto;
+}
+
+.navbar {
+    position: fixed;
+    left: 50%;
+    top: 0%;
+    width: 100%;
+    transform: translate(-50%, 0.1%);
+    transition: all 0.3s ease;
+    padding: 0px 10px;
+    z-index: 5;
+    min-height: 100px;
+    background: rgba(255, 255, 255, 0.68);
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+    box-shadow: 0px 0.1px 20px rgba(255, 255, 255, 0.7);
+}
+
+.navbar-brand {
+    margin: 0 0 0 0;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-link a{
+    color: #181818;
+    margin: .75rem .75rem;
+    align-items: center;
+    display: flex;
+    position: relative;
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.navbar-toggler {
+    background-color: white;
+}
+
+.toggle-button-img {
+    width: 30px;
+    height: 30px;
+}
+
+.nav-link a{
+    list-style: none;
+    display: inline-block;
+}
+
+.nav-link a:hover{
+    transition: all 0.2s ease-in;
+    color: #5c606c;
+}
+
+
+.nav-link a:active {
+    color: #43464d;
+}
+
+/* menu btn styling */
+.menu-btn-div {
+    float: right;
+}
+
+.subscribe-button-wrapper {
+    width: auto;
+    padding: 10px;
+    margin-left: 10vh;
+}
+
+.subscribe-btn {
+    display: inline-block;
+    padding: 12px 18px;
+    background-color: #1a1b1f;
+    transition: all 200ms ease;
+    text-transform: uppercase;
+    color: white;
+    border: 0;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    line-height: inherit;
+    text-decoration: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.subscribe-btn:hover {
+    background-color: #5c606c;
+    color: #fff;
+}
+
+.subscribe-btn:active {
+    background-color: #43464d;
+}
+
+@media screen and (max-width: 1024px) {
+    .navbar {
+    position: fixed;
+    left: 50%;
+    top: 0%;
+    width: 100%;
+    transform: translate(-50%, 0.1%);
+    transition: all 0.3s ease;
+    padding: 0px 10px;
+    z-index: 5;
+    min-height: 100px;
+    background: rgba(255, 255, 255, 0.68);
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+    box-shadow: 0px 0.1px 20px rgba(255, 255, 255, 0.7);
+    }
+
+    .nav-div {
+        display: flex;
+        margin: auto;
+        width: 90%;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        position: fixed;
+        left: 50%;
+        top: 0%;
+        width: 90%;
+        transform: translate(-50%, 0.1%);
+        padding: 0px 10px;
+        z-index: 5;
+        min-height: 60px;
+        border-radius: 0 0 5px 5px;
+        background: rgba(255, 255, 255, 0.68);
+        -webkit-backdrop-filter: blur(15px);
+        backdrop-filter: blur(15px);
+        box-shadow: 0px 0.1px 20px rgba(255, 255, 255, 0.7);
+    }
+
+    .nav-div {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .nav-brand-div{
+        display: inline-block;
+        width: 100%;
+    }
+    
+    .navbar-toggler {
+        float: right;
+        margin: 2.5vh 0 0 0;
+    }
+
+    .navbar-brand {
+        margin: 1.25vh 0 1.25vh 1.3vh;
+        padding: 10px;
+        align-items: center;
+        display: inline-block;
+    }
+
+    .subscribe-button-wrapper {
+        display: none;
+    }
+    
+    .navbar-collapse {
+        padding: 12px;
+    }
+}

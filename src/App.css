@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@200&family=Spectral:wght@200&display=swap');
+
+
+@font-face {
+    font-family: 'WhyteInktrapRegular';
+    src: url(../public/Assets/Fonts/WhyteInktrap-Regular.woff2);
+}
+
+@font-face {
+    font-family: 'WhyteInktrapMedium';
+    src: url(../public/Assets/Fonts/WhyteInktrap-Medium.woff2);
+}
+
+@font-face {
+    font-family: 'WhyteInktrapHeavy';
+    src: url(../public/Assets/Fonts/WhyteInktrap-Heavy.woff2);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.HomeHead {
+    font-family: whyteinktrapheavy;
+    font-size: 40px;
+    font-weight: 900;
+    font-style: heavy;
+}
+
+.container {
+    max-width: 1920px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0;
+}

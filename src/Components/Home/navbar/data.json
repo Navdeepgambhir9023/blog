@@ -1,0 +1,21 @@
+[
+    {
+        "optionName": "About",
+        "path": "/about"
+    },
+
+    {
+        "optionName": "Blogs",
+        "path": "/blogs"
+    },
+
+    {
+        "optionName": "Portfolio",
+        "path": "/portfolio"
+    },
+
+    {
+        "optionName": "Contact",
+        "path": "/contact"
+    }
+]

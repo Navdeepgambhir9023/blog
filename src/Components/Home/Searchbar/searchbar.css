@@ -1,0 +1,28 @@
+.searchBar-Wrap{
+    box-sizing: border-box;
+}
+
+.searchBar-Wrap form {
+    display: flex;
+    align-items: center;
+}
+
+.searchBar-Wrap form input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 100px 0 0 100px;
+    font-size: 20px;
+    font-family: 'WhyteInktrapHeavy';
+    background-color: #f0f0f0;
+}
+
+.searchBar-Wrap form button {
+    border: none;
+    outline: none;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 0 100px 100px 0;
+    font-size: 20px;
+    font-family: 'WhyteInktrapRegular';
+}
