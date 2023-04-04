@@ -22,15 +22,21 @@ Install Node.js on your computer by downloading and installing it from the offic
 <br>
 
 Open a terminal or command prompt and navigate to the directory where you want to clone the repository.
+
 <br>
 Clone the repository
+
 <br>
 Navigate to the cloned repository using the terminal or command prompt.
+
 <br>
 Install the dependencies required for the project by running the following command:
+
 <br>
 "npm install"
+
 <br>
 Once the dependencies are installed, start the server by running the following command:
+
 <br>
 "npm start"
