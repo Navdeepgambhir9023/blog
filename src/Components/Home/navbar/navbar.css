@@ -21,7 +21,7 @@
 }
 
 .navbar-brand {
-    margin: 0 0 0 0;
+    margin: .5vh 0 0 0;
     padding: 10px;
     display: flex;
     align-items: center;
@@ -191,6 +191,7 @@
     .navbar-toggler {
         float: right;
         margin: 2.5vh 0 0 0;
+        background-color: transparent;
     }
 
     .navbar-brand {
@@ -206,5 +207,29 @@
     
     .navbar-collapse {
         padding: 12px;
+    }
+    .navbar-brand img {
+        width: 12vw;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .toggle-button-img {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .toggle-button-img {
+        width: 25px;
+        height: 25px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .toggle-button-img {
+        width: 20px;
+        height: 20px;
     }
 }
