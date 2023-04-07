@@ -21,12 +21,17 @@
 }
 
 .navbar-brand {
-    margin: .5vh 0 0 0;
-    padding: 10px;
+    font-size: 2.5rem;
+    font-family: 'WhyteInktrapHeavy';
+    color: #181818;
+    margin: 0 0 0 0;
     display: flex;
     align-items: center;
 }
 
+.navbar-brand:hover {
+    color: #181818;
+}
 .nav-link a{
     color: #181818;
     margin: .75rem .75rem;

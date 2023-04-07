@@ -10,7 +10,7 @@ const navbar = () => {
       <nav className="navbar blur navbar-expand-lg">
         <div className='nav-div'>
           <div className='nav-brand-div'>
-            <a className="navbar-brand" href="/Home"> <img src="/Assets/images/logo.svg" alt="" /> </a>
+            <a className="navbar-brand" href="/Home"> Navv </a>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navtoggle" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon">
                 <img className='toggle-button-img' src="/Assets/images/Menu.png" alt="" />
