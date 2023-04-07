@@ -11,7 +11,7 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .blogList-wrap {
         grid-template-columns: repeat(1, 1fr);
         grid-gap: .5vh 4vh;
