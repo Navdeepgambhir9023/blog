@@ -99,6 +99,37 @@
     background-color: #43464d;
 }
 
+@media screen and (max-width: 1439px) {
+    .navbar {
+    position: fixed;
+    left: 50%;
+    top: 0%;
+    width: 100%;
+    transform: translate(-50%, 0.1%);
+    transition: all 0.3s ease;
+    padding: 0px 10px;
+    z-index: 5;
+    min-height: 100px;
+    background: rgba(255, 255, 255, 0.68);
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+    box-shadow: 0px 0.1px 20px rgba(255, 255, 255, 0.7);
+    }
+
+    .nav-div {
+        display: flex;
+        margin: auto;
+        width: 80%;
+    }
+
+    .subscribe-button-wrapper {
+        width: auto;
+        padding: 10px;
+        margin-left: 5vh;
+    }
+}
+
+
 @media screen and (max-width: 1024px) {
     .navbar {
     position: fixed;
@@ -119,17 +150,23 @@
     .nav-div {
         display: flex;
         margin: auto;
-        width: 90%;
+        width: 80%;
+    }
+
+    .subscribe-button-wrapper {
+        width: auto;
+        padding: 10px;
+        margin-left: 5vh;
     }
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 991px) {
     .navbar {
         position: fixed;
         left: 50%;
         top: 0%;
-        width: 90%;
+        width: 100%;
         transform: translate(-50%, 0.1%);
         padding: 0px 10px;
         z-index: 5;
@@ -143,7 +180,7 @@
 
     .nav-div {
         display: inline-block;
-        width: 100%;
+        width: 90%;
     }
 
     .nav-brand-div{
