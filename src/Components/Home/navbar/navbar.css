@@ -32,7 +32,8 @@
 .navbar-brand:hover {
     color: #181818;
 }
-.nav-link a{
+
+.nav-link a {
     color: #181818;
     margin: .75rem .75rem;
     align-items: center;
@@ -52,12 +53,12 @@
     height: 30px;
 }
 
-.nav-link a{
+.nav-link a {
     list-style: none;
     display: inline-block;
 }
 
-.nav-link a:hover{
+.nav-link a:hover {
     transition: all 0.2s ease-in;
     color: #5c606c;
 }
@@ -106,19 +107,19 @@
 
 @media screen and (max-width: 1439px) {
     .navbar {
-    position: fixed;
-    left: 50%;
-    top: 0%;
-    width: 100%;
-    transform: translate(-50%, 0.1%);
-    transition: all 0.3s ease;
-    padding: 0px 10px;
-    z-index: 5;
-    min-height: 100px;
-    background: rgba(255, 255, 255, 0.68);
-    -webkit-backdrop-filter: blur(15px);
-    backdrop-filter: blur(15px);
-    box-shadow: 0px 0.1px 20px rgba(255, 255, 255, 0.7);
+        position: fixed;
+        left: 50%;
+        top: 0%;
+        width: 100%;
+        transform: translate(-50%, 0.1%);
+        transition: all 0.3s ease;
+        padding: 0px 10px;
+        z-index: 5;
+        min-height: 100px;
+        background: rgba(255, 255, 255, 0.68);
+        -webkit-backdrop-filter: blur(15px);
+        backdrop-filter: blur(15px);
+        box-shadow: 0px 0.1px 20px rgba(255, 255, 255, 0.7);
     }
 
     .nav-div {
@@ -137,19 +138,19 @@
 
 @media screen and (max-width: 1024px) {
     .navbar {
-    position: fixed;
-    left: 50%;
-    top: 0%;
-    width: 100%;
-    transform: translate(-50%, 0.1%);
-    transition: all 0.3s ease;
-    padding: 0px 10px;
-    z-index: 5;
-    min-height: 100px;
-    background: rgba(255, 255, 255, 0.68);
-    -webkit-backdrop-filter: blur(15px);
-    backdrop-filter: blur(15px);
-    box-shadow: 0px 0.1px 20px rgba(255, 255, 255, 0.7);
+        position: fixed;
+        left: 50%;
+        top: 0%;
+        width: 100%;
+        transform: translate(-50%, 0.1%);
+        transition: all 0.3s ease;
+        padding: 0px 10px;
+        z-index: 5;
+        min-height: 100px;
+        background: rgba(255, 255, 255, 0.68);
+        -webkit-backdrop-filter: blur(15px);
+        backdrop-filter: blur(15px);
+        box-shadow: 0px 0.1px 20px rgba(255, 255, 255, 0.7);
     }
 
     .nav-div {
@@ -188,53 +189,65 @@
         width: 90%;
     }
 
-    .nav-brand-div{
+    .nav-brand-div {
         display: inline-block;
         width: 100%;
     }
-    
+
     .navbar-toggler {
         float: right;
-        margin: 2.5vh 0 0 0;
+        margin: 3vh 0 0 0;
         background-color: transparent;
     }
 
     .navbar-brand {
-        margin: 1.25vh 0 1.25vh 1.3vh;
+        margin: 1vh 0 1vh 1.3vh;
         padding: 10px;
         align-items: center;
         display: inline-block;
+        font-size: 2rem;
     }
+    
 
     .subscribe-button-wrapper {
         display: none;
     }
-    
+
     .navbar-collapse {
         padding: 12px;
     }
-    .navbar-brand img {
-        width: 12vw;
-    }
+
 }
 
 @media screen and (max-width: 767px) {
-    .toggle-button-img {
-        width: 30px;
-        height: 30px;
+   
+    .navbar-brand {
+        margin: 1.5vh 0 .5vh 1.3vh;
+        padding: 10px;
+        align-items: center;
+        display: inline-block;
+        font-size: 2rem;
     }
 }
 
 @media screen and (max-width: 480px) {
-    .toggle-button-img {
-        width: 25px;
-        height: 25px;
+
+    .navbar-brand {
+        margin: 2vh 0 .5vh 1.3vh;
+        padding: 10px;
+        align-items: center;
+        display: inline-block;
+        font-size: 1.8rem;
     }
 }
 
 @media screen and (max-width: 375px) {
-    .toggle-button-img {
-        width: 20px;
-        height: 20px;
+
+    .navbar-brand {
+        margin: 2vh 0 .5vh 1.3vh;
+        padding: 10px;
+        align-items: center;
+        display: inline-block;
+        font-size: 1.5rem;
     }
 }
