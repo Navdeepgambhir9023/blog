@@ -6,9 +6,9 @@ import './BlogItem.css'
 const BlogItem = ({ blog: { id, description, title, createdAt, authorName, authorAvatar, category, cover } }) =>
 
   <div className='blogItem-wrap'>
+    <h3>{title}</h3>
     <img className='blogItem-cover' src={cover} alt="cover" />
     <Chip label={category} />
-    <h3>{title}</h3>
     <p className='blogItem-discription'>{description}</p>
     <footer>
       <div className="blogItem-author">
@@ -19,7 +19,11 @@ const BlogItem = ({ blog: { id, description, title, createdAt, authorName, autho
         </div>
       </div>
       <Link className='blogItem-link' to={`/blog/${id}`}>
-        Read Here!
+        <div class="read-button-wrapper">
+          <button className='read-button'>
+            Start Reading
+          </button>
+        </div>
       </Link>
 
     </footer>
