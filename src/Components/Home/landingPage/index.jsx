@@ -12,8 +12,8 @@ const landing = () => {
               <p>
                 Hey! I am Navdeep, welcome to my personal blog! Here, I share my thoughts, experiences, and ideas on various topics that interest me. Join me on this journey and explore the world through my eyes.
               </p>
-              <div class="read-button-wrapper">
-                <a href="/subscription" class="read-button">Start Reading</a>
+              <div className="read-button-wrapper">
+                <a href="/subscription" className="read-button">Start Reading</a>
               </div>
             </div>
             <div className='image-div'>

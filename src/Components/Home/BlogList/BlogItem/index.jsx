@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import Chip from '../../../Reuseable/categoryLable'
 import './BlogItem.css'
 
-const BlogItem = ({ blog: { id, description, title, createdAt, authorName, authorAvatar, category, cover } }) =>
+const BlogItem = ({ blog: { name, description, title, createdAt, authorName, authorAvatar, category, cover } }) =>
 
   <div className='blogItem-wrap'>
     <h3>{title}</h3>
@@ -18,10 +18,10 @@ const BlogItem = ({ blog: { id, description, title, createdAt, authorName, autho
           <p>{createdAt}</p>
         </div>
       </div>
-      <Link className='blogItem-link' to={`/blog/${id}`}>
+      <Link className='blogItem-link' to={`/blog/${name}`}>
         <div class="read-button-wrapper">
           <button className='read-button'>
-            Start Reading
+          Start Reading
           </button>
         </div>
       </Link>

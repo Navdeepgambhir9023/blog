@@ -4,19 +4,21 @@ import {blogList} from '../../config/data'
 import {Link} from 'react-router-dom'
 
 const Blog = () => {
-  const {id}=useParams()
+  const {name}=useParams()
   const [blog, setBlog] = useState(null)
 
   useEffect(() => {
-    let blog = blogList.find((blog) => blog.id === parseInt(id))
-    if (blog) {
-      setBlog(blog)
+    const foundBlog = blogList.find(blog => blog.name === name);
+    if (foundBlog) {
+      setBlog(foundBlog);
     }
-  }, [id])
+  }, [name]);
   return (
     <div>
-          <Link>
-          <span> &#8592;</span> <span>Go Back</span>
+          <Link to= '/'>
+            <button>
+              go back
+            </button>
           </Link>
           {blog ? (
         <div className='blog-wrap'>

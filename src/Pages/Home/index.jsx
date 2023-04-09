@@ -36,6 +36,8 @@ const Home = () => {
 
       {/* {Blog List} */}
       <BlogList blogs={blogs} />
+
+      {/* {Contact} */}
     </div>
   )
 }

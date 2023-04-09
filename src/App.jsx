@@ -10,7 +10,7 @@ const App = () => (
       <switch>
         <Routes>
           <Route path="/" exact element={<Home />} />
-          <Route path="/blog/:id" element={<Blog />} />
+          <Route path="/blog/:name" element={<Blog />} />
         </Routes>
       </switch>
     </div>

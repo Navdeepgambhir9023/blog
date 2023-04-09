@@ -17,8 +17,6 @@ const navbar = () => {
               </span>
             </button>
           </div>
-          <div className="toggle-button">
-          </div>
           <div className="collapse navbar-collapse" id="navtoggle">
             <ul className='navbar-nav ml-auto' >
               {navbarOptions.map((option, index) => (

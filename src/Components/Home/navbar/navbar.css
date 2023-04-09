@@ -46,6 +46,7 @@
 
 .navbar-toggler {
     background-color: white;
+    margin: 5px;
 }
 
 .toggle-button-img {
@@ -196,7 +197,7 @@
 
     .navbar-toggler {
         float: right;
-        margin: 3vh 0 0 0;
+        margin: 3vh 1vw 0 0;
         background-color: transparent;
     }
 
@@ -222,32 +223,49 @@
 @media screen and (max-width: 767px) {
    
     .navbar-brand {
-        margin: 1.5vh 0 .5vh 1.3vh;
+        margin: 1vh 0 1vh 1.3vh;
         padding: 10px;
         align-items: center;
         display: inline-block;
         font-size: 2rem;
+    }
+    .navbar-toggler {
+        float: right;
+        margin: 2.7vh 1vw 0 0;
+        background-color: transparent;
     }
 }
 
 @media screen and (max-width: 480px) {
 
     .navbar-brand {
-        margin: 2vh 0 .5vh 1.3vh;
+        margin: 1vh 0 1vh 1.3vh;
         padding: 10px;
         align-items: center;
         display: inline-block;
         font-size: 1.8rem;
+    }
+
+    .navbar-toggler {
+        float: right;
+        margin: 2.5vh 1vw 0 0;
+        background-color: transparent;
     }
 }
 
 @media screen and (max-width: 375px) {
 
     .navbar-brand {
-        margin: 2vh 0 .5vh 1.3vh;
+        margin: 1vh 0 1vh 1.3vh;
         padding: 10px;
         align-items: center;
         display: inline-block;
         font-size: 1.5rem;
+    }
+
+    .navbar-toggler {
+        float: right;
+        margin: 2vh 1vw 0 0;
+        background-color: transparent;
     }
 }
