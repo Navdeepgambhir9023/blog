@@ -1,0 +1,40 @@
+.top-posts-section h1{
+    display: inline-block;
+    margin: 1vw 1vw 1vw 1vw;
+    font-size: 2.5rem;
+    font-weight: 900;
+    font-family: 'Nunito', sans-serif;
+}
+
+.top-list ul {
+    list-style-type: none;
+    margin: 1vw;
+    overflow: hidden;
+}
+
+.top-list li {
+    font-size: 1.3rem;
+    font-family: 'Nunito', sans-serif;
+    padding: .8vh;
+}
+
+.top-list li a {
+    display: block;
+    color: #282828;
+    padding: .5vh;
+    font-family: "Nunito", sans-serif;
+    line-height: 3.5vh;
+    text-decoration: none;
+}
+
+.top-list li a:hover {
+    background-color: #f1f1f1;
+}
+
+
+.top-list p {
+    display: block;
+    font-size: .8rem;
+    color: #282828;
+    margin: 5px 0px;
+}

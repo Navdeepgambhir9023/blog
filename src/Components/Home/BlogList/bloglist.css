@@ -31,16 +31,6 @@
     padding: 1vh 1vw 1vh 1vw;
 }
 
-.top-posts-section h1{
-    display: inline-block;
-    margin: 1vw 1vw 1vw 1vw;
-    font-size: 2.5rem;
-    font-weight: 900;
-    font-family: 'Nunito', sans-serif;
-}
-
-
-
 
 @media (max-width: 991px) {
     .blogList-wrap{

@@ -35,18 +35,18 @@ export const blogList = [{
         </div>,
         authorName: 'Navdeep Singh',
         authorAvatar: '/Assets/images/author.png',
-        createdAt: 'June 03, 2021',
+        createdAt: ' March 27, 2023',
         cover: '/Assets/images/bird.jpg',
     },
     {
-        name: 'blog-2',
+        name: 'Milan Places That Highlight The City',
         title: 'Milan Places That Highlight The City',
         category: 'travel',
         subCategory: ['vacation', 'holidays', 'sight seeing'],
         description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
         authorName: 'Navdeep Singh',
         authorAvatar: '/Assets/images/author.png',
-        createdAt: 'June 03, 2021',
+        createdAt: ' March 27, 2023',
         cover: '/Assets/images/flower.jpg',
     },
     {
@@ -57,7 +57,7 @@ export const blogList = [{
         description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
         authorName: 'Navdeep Singh',
         authorAvatar: '/Assets/images/author.png',
-        createdAt: 'June 03, 2021',
+        createdAt: ' March 27, 2023',
         cover: '/Assets/images/georgia.jpg',
     },
     {
@@ -68,7 +68,7 @@ export const blogList = [{
         description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
         authorName: 'Navdeep Singh',
         authorAvatar: '/Assets/images/author.png',
-        createdAt: 'June 03, 2021',
+        createdAt: ' March 27, 2023',
         cover: '/Assets/images/mountains.jpg',
     },
     {
@@ -79,7 +79,7 @@ export const blogList = [{
         description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
         authorName: 'Navdeep Singh',
         authorAvatar: '/Assets/images/author.png',
-        createdAt: 'June 03, 2021',
+        createdAt: ' March 27, 2023',
         cover: '/Assets/images/pine-needles.jpg',
     },
     {
@@ -90,7 +90,7 @@ export const blogList = [{
         description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
         authorName: 'Navdeep Singh',
         authorAvatar: '/Assets/images/author.png',
-        createdAt: 'June 03, 2021',
+        createdAt: ' March 27, 2023',
         cover: '/Assets/images/squirrel.jpg',
     },
     {
@@ -101,7 +101,7 @@ export const blogList = [{
         description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
         authorName: 'Navdeep Singh',
         authorAvatar: '/Assets/images/author.png',
-        createdAt: 'June 03, 2021',
+        createdAt: ' March 27, 2023',
         cover: '/Assets/images/lake.jpg',
     },
 ];

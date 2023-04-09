@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Chip from '../../../Reuseable/categoryLable'
 import './BlogItem.css'
+import ReadButton from '../../../Reuseable/ReadButton'
 
 const BlogItem = ({ blog: { name, description, title, createdAt, authorName, authorAvatar, category, cover } }) =>
 
@@ -19,11 +20,7 @@ const BlogItem = ({ blog: { name, description, title, createdAt, authorName, aut
         </div>
       </div>
       <Link className='blogItem-link' to={`/blog/${name}`}>
-        <div class="read-button-wrapper">
-          <button className='read-button'>
-          Start Reading
-          </button>
-        </div>
+        <ReadButton/>
       </Link>
 
     </footer>

@@ -49,38 +49,6 @@
     text-align: justify;
 }
 
-.read-button-wrapper {
-    width: auto;
-}
-
-.read-button-wrapper a {
-    text-decoration: none;
-}
-
-.read-button {
-    display: inline-block;
-    padding: 12px 18px;
-    background-color: #1a1b1f;
-    transition: all 200ms ease;
-    text-transform: uppercase;
-    color: white;
-    border: 0;
-    font-size: 12px;
-    line-height: 20px;
-    letter-spacing: 2px;
-    line-height: inherit;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
-.read-button:hover {
-    background-color: #5c606c;
-    color: #fff;
-}
-
-.read-button:active {
-    background-color: #43464d;
-}
 
 .image-div img {
     width: 100%;
