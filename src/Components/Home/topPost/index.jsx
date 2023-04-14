@@ -16,17 +16,13 @@ const TopPost = () => {
                             <li key={path} >
                                 <Link className='topPost-link' to={blog.path}>{blog.blogName}
                                 </Link>
-                                <p> {blog.blogType}</p> 
-                                <p>{blog.date}</p> 
+                                <p> {blog.blogType}</p>
+                                <p>{blog.date}</p>
                             </li>
                         ))}
 
                     </ul>
                 </div>
-            </div>
-            <div className='subscription-section'>
-            </div>
-            <div>
             </div>
         </div>
     )

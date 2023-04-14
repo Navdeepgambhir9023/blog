@@ -2,6 +2,7 @@ import React from 'react';
 import BlogItem from './BlogItem';
 import './bloglist.css';
 import TopPost from '../topPost';
+import Category from '../category';
 
 const BlogList = ({ blogs }) => {
   return (
@@ -14,7 +15,12 @@ const BlogList = ({ blogs }) => {
           ))}
         </div>
         <div className='side-div'>
-          <TopPost />
+          <div className='category-div'>
+            <Category />
+          </div>
+          <div className='topPost-div'>
+            <TopPost />
+          </div>
         </div>
       </div>
     </div>

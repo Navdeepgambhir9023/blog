@@ -79,8 +79,10 @@
 
 @media screen and (max-width: 1024px) {
     .content-div {
-        padding: 12em 6em 5em 6em;
+        padding: 12em 7em 9em 7em;
+        width: 100%;
     }
+    
 
     .content {
         padding: 20px;
@@ -123,14 +125,14 @@
     }
 
     .content h1 {
-        font-size: 2.5rem;
+        font-size: 2.8rem;
         font-weight: 900;
         color: #333;
         margin-bottom: 1rem;
     }
 
     .content p {
-        font-size: .9rem;
+        font-size: 1.3rem;
         font-weight: 400;
         color: #333;
         margin-bottom: 1rem;
@@ -138,7 +140,8 @@
     }
 
     .image-div img {
-        width: 100%;
+        width: 70vw;
+        height: 55vh;
         padding: 0 2rem 0 0;
         filter: drop-shadow(20px 20px 80px rgb(255, 255, 255));
     }
@@ -166,14 +169,14 @@
     }
 
     .content h1 {
-        font-size: 2.1rem;
+        font-size: 2.3rem;
         font-weight: 900;
         color: #333;
         margin-bottom: 1rem;
     }
 
     .content p {
-        font-size: .8rem;
+        font-size: 1rem;
         font-weight: 400;
         color: #333;
         margin-bottom: 1rem;
@@ -181,11 +184,56 @@
     }
 
     .image-div img {
-        width: 100%;
+        width: 75vw;
+        height: 45vh;
         padding: 0 2rem 0 0;
         filter: drop-shadow(20px 20px 80px rgb(255, 255, 255));
     }
 }
+
+@media screen and (max-width: 767px) {
+    .content-div {
+        padding: 8.5em 3.5em 2em 3.5em;
+        width: 100%;
+        grid-gap: 100px;
+        text-align: center;
+    }
+
+    .content-grid {
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 5vh;
+    }
+
+    .content-grid div {
+        margin: auto;
+        width: 100%;
+    }
+
+    .content h1 {
+        font-size: 2.3rem;
+        font-weight: 900;
+        color: #333;
+        margin-bottom: 1rem;
+    }
+
+    .content p {
+        font-size: 1rem;
+        font-weight: 400;
+        color: #333;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .image-div img {
+        width: 75vw;
+        height: 45vh;
+        padding: 0 2rem 0 0;
+        filter: drop-shadow(20px 20px 80px rgb(255, 255, 255));
+    }
+}
+
 
 
 @media screen and (max-width: 480px) {
@@ -224,7 +272,8 @@
     }
 
     .image-div img {
-        width: 100%;
+        width: 80vw;
+        height: 40vh;
         padding: 0 1rem 0 0;
         filter: drop-shadow(20px 20px 80px rgb(255, 255, 255));
     }
@@ -232,7 +281,7 @@
 
 @media screen and (max-width: 375px) {
     .content-div {
-        padding: 8em 1.8em 7em 1.8em;
+        padding: 6em 1.8em 7em 1.8em;
         width: 100%;
         grid-gap: 100px;
         text-align: center;
@@ -266,7 +315,8 @@
     }
 
     .image-div img {
-        width: 100%;
+        width: 70vw;
+        height: 40vh;
         padding: 0 1rem 0 0;
         filter: drop-shadow(20px 20px 80px rgb(255, 255, 255));
     }
