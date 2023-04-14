@@ -124,7 +124,6 @@
         padding: 12em 7em 2em 7em;
         width: 100%;
     }
-    
 
     .content {
         padding: 20px;
@@ -233,19 +232,18 @@
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 900px) and (orientation: landscape) {
     .content-div {
-        padding: 8.5em 3.5em 2em 3.5em;
+        padding: 25vh 3.5em 0em 3.5em;
         width: 100%;
-        grid-gap: 100px;
-        text-align: center;
+        text-align: left;
     }
 
     .content-grid {
         display: grid;
         width: 100%;
-        grid-template-columns: repeat(1, 1fr);
-        grid-gap: 5vh;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
     }
 
     .content-grid div {
@@ -258,24 +256,58 @@
         font-weight: 900;
         color: #333;
         margin-bottom: 1rem;
+        text-align: left;
     }
 
     .content p {
-        font-size: 1rem;
+        font-size: .9rem;
         font-weight: 400;
         color: #333;
         margin-bottom: 1rem;
+        line-height: 1.2;
+        text-align: left;
+    }
+
+    .image-div {
         text-align: center;
     }
 
     .image-div img {
-        width: 75vw;
-        height: 45vh;
-        padding: 0 2rem 0 0;
+        width: 40vw;
+        height: 70vh;
+        padding: 0 0rem 0 0;
         filter: drop-shadow(20px 20px 80px rgb(255, 255, 255));
     }
 }
 
+@media screen and (max-width: 750px) and (orientation: landscape) {
+    .content-div {
+        padding: 25vh 1.5em 0em 1.5em;
+        width: 100%;
+    }
+
+    .content h1 {
+        font-size: 2rem;
+        font-weight: 900;
+        color: #333;
+        margin-bottom: 1rem;
+    }
+
+    .content p {
+        font-size: .9rem;
+        font-weight: 400;
+        color: #333;
+        margin-bottom: 1rem;
+        line-height: 1.2;
+    }
+
+    .image-div img {
+        width: 40vw;
+        height: 60vh;
+        padding: 0 2rem 0 0;
+        filter: drop-shadow(20px 20px 80px rgb(255, 255, 255));
+    }
+}
 
 
 @media screen and (max-width: 480px) {

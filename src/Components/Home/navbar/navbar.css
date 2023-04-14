@@ -269,3 +269,20 @@
         background-color: transparent;
     }
 }
+
+@media screen and (max-width: 900px) and (orientation: landscape) {
+    .navbar-toggler {
+        float: right;
+        margin: 4vh 1vw 0 0;
+        background-color: transparent;
+    }
+}
+
+
+@media screen and (max-width: 750px) and (orientation: landscape) {
+    .navbar-toggler {
+        float: right;
+        margin: 5vh 1vw 0 0;
+        background-color: transparent;
+    }
+}
