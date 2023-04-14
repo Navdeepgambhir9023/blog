@@ -21,6 +21,27 @@
     padding: 0;
 }
 
+h1,
+h2,
+h3 {
+    font-family: 'Chubbo', sans-serif;
+    font-size: 1.9rem;
+    font-weight: 450;
+}
+
+/* Paragraph font */
+p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1rem;
+    line-height: 1.7;
+}
+
+/* Small text font */
+small {
+    font-family: 'Supreme', sans-serif;
+    font-size: .8rem;
+}
+
 .HomeHead {
     font-family: whyteinktrapheavy;
     font-size: 40px;
