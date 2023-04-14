@@ -1,7 +1,6 @@
 import React from 'react'
 import './landing.css'
 import { Link } from 'react-router-dom'
-import ReadButton from '../../Reuseable/ReadButton'
 
 const landing = () => {
   return (
@@ -14,9 +13,9 @@ const landing = () => {
               <p>
                 Hey! I am Navdeep, welcome to my personal blog! Here, I share my thoughts, experiences, and ideas on various topics that interest me. Join me on this journey and explore the world through my eyes.
               </p>
-              <ReadButton>
-              <Link to="subscription" className="read-button">Start Reading</Link>
-              </ReadButton>
+              <button>
+                <Link className="landing-read-button" to="subscription">Start Reading</Link>
+              </button>
             </div>
             <div className='image-div'>
               <img src="Assets/images/landing-svg.svg" alt="" />

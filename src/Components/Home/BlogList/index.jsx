@@ -7,7 +7,7 @@ import Category from '../category';
 const BlogList = ({ blogs }) => {
   return (
     <div className='blogList-parent-div'>
-      <h1 className='divider'>Blogs</h1>
+      {/* <h1 className='divider'>Blogs</h1> */}
       <div className='blogList-wrap'>
         <div className='blog-div'>
           {blogs.map((blogs) => (

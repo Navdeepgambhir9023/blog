@@ -11,7 +11,7 @@
 }
 
 .content-div {
-    padding: 14em 18em 10em 18em;
+    padding: 14em 18em 2em 18em;
     width: 100%;
     grid-gap: 100px;
 }
@@ -49,15 +49,57 @@
     text-align: justify;
 }
 
+.content button {
+    border: none;
+}
 
 .image-div img {
     width: 100%;
     filter: drop-shadow(20px 20px 80px rgb(255, 255, 255));
 }
 
+.landing-read-button {
+    display: inline-block;
+    padding: 12px 18px;
+    background-color: #1a1b1f;
+    transition: all 200ms ease;
+    text-transform: uppercase;
+    color: white;
+    border: 0;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    line-height: inherit;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.landing-read-button:hover {
+    background-color: #5c606c;
+    color: #fff;
+    text-decoration: none;
+}
+
+.landing-read-button:active {
+    background-color: #43464d;
+}
+
+.landing-read-button-wrapper {
+    width: auto;
+}
+
+.landing-read-button-wrapper a {
+    text-decoration: none;
+}
+
+.landing-read-button:active {
+    background-color: #43464d;
+}
+
 @media screen and (max-width: 1440px) {
     .content-div {
-        padding: 9em 8em 5em 8em;
+        padding: 9em 8em 2em 8em;
     }
 
     .content h1 {
@@ -79,7 +121,7 @@
 
 @media screen and (max-width: 1024px) {
     .content-div {
-        padding: 12em 7em 9em 7em;
+        padding: 12em 7em 2em 7em;
         width: 100%;
     }
     
@@ -106,7 +148,7 @@
 
 @media screen and (max-width: 991px) {
     .content-div {
-        padding: 9em 7em 9em 7em;
+        padding: 9em 7em 2em 7em;
         width: 100%;
         grid-gap: 100px;
         text-align: center;

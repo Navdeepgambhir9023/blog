@@ -35,3 +35,15 @@
 .read-button:active {
     background-color: #43464d;
 }
+
+@media (max-width: 1024px) {
+    .read-button {
+        padding: 15px 0px;
+    }
+}
+
+@media (max-width: 991px) {
+    .read-button {
+        padding: 15px 18px;
+    }
+}
