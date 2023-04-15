@@ -31,6 +31,9 @@
     padding: 1vh 1vw 1vh 1vw;
 }
 
+.category-div {
+    margin-bottom: 10vh;
+}
 
 @media screen and (max-width: 1440px) {
     .blogList-wrap {

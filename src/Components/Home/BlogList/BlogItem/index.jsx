@@ -22,7 +22,6 @@ const BlogItem = ({ blog: { name, description, title, createdAt, authorName, aut
       <Link className='blogItem-link' to={`/blog/${name}`}>
         <ReadButton/>
       </Link>
-
     </footer>
   </div>
 

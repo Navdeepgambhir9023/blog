@@ -1,8 +1,8 @@
 import React from 'react';
 import BlogItem from './BlogItem';
 import './bloglist.css';
-import TopPost from '../topPost';
-import Category from '../category';
+import TopPost from '../sideDivComponent/topPost';
+import Category from '../sideDivComponent/category';
 
 const BlogList = ({ blogs }) => {
   return (

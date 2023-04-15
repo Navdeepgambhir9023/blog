@@ -34,10 +34,9 @@
 
 .content h1 {
     font-size: 2.5rem;
-    font-weight: 900;
+    font-weight: bold;
     color: #333;
     margin-bottom: 1rem;
-    font-family: 'chubbo', sans-serif;
 }
 
 .content p {
@@ -45,7 +44,6 @@
     font-weight: 400;
     color: #333;
     margin-bottom: 1rem;
-    font-family: 'Supreme', sans-serif;
     text-align: justify;
 }
 
