@@ -1,10 +1,12 @@
-import React, { useEffect, useState} from 'react'
-import {useParams} from 'react-router-dom'
-import {blogList} from '../../config/data'
-import {Link} from 'react-router-dom'
+import React, { useEffect, useState } from 'react'
+import { useParams } from 'react-router-dom'
+import { blogList } from '../../config/data'
+import { Link } from 'react-router-dom'
+import './blog.css'
+import ReadButton from '../../Components/Reuseable/ReadButton'
 
 const Blog = () => {
-  const {name}=useParams()
+  const { name } = useParams()
   const [blog, setBlog] = useState(null)
 
   useEffect(() => {
@@ -15,12 +17,12 @@ const Blog = () => {
   }, [name]);
   return (
     <div>
-          <Link to= '/'>
-            <button>
-              go back
-            </button>
-          </Link>
-          {blog ? (
+      <Link to='/'>
+        <ReadButton>
+          go back
+        </ReadButton>
+      </Link>
+      {blog ? (
         <div className='blog-wrap'>
           <header>
             <p className='blog-date'>Published {blog.createdAt}</p>
@@ -33,7 +35,9 @@ const Blog = () => {
               ))}
             </div>
           </header>
-          <img src={blog.cover} alt='cover' />
+          <div className='image-div'>
+            <img src={blog.cover} alt='cover' />
+          </div>
           <p className='blog-desc'>{blog.description}</p>
         </div>
       ) : (
