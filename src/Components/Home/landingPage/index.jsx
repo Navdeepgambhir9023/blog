@@ -19,7 +19,7 @@ const landing = () => {
                 <Link className="landing-read-button" to="subscription">Start Reading</Link>
               </button>
             </div>
-            <div className='image-div'>
+            <div className='landing-image-div'>
               <img src="Assets/images/landing-svg.svg" alt="" />
             </div>
           </div>

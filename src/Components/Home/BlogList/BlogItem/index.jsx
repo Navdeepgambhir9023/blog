@@ -7,10 +7,11 @@ import ReadButton from '../../../Reuseable/ReadButton'
 const BlogItem = ({ blog: { name, description, title, createdAt, authorName, authorAvatar, category, cover } }) =>
 
   <div className='blogItem-wrap'>
+    <div>
     <h3>{title}</h3>
     <img className='blogItem-cover' src={cover} alt="cover" />
-    <Chip label={category} />
     <p className='blogItem-discription'>{description}</p>
+    <Chip label={category} />
     <footer>
       <div className="blogItem-author">
         <img src={authorAvatar} alt="avatar" />
@@ -23,6 +24,7 @@ const BlogItem = ({ blog: { name, description, title, createdAt, authorName, aut
         <ReadButton/>
       </Link>
     </footer>
+    </div>
   </div>
 
 export default BlogItem;

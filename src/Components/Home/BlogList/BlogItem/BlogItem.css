@@ -3,7 +3,7 @@
   flex-direction: column;
   background-color: #fff;
   filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.12));
-  padding: 20px 1vw 20px 1vw;
+  padding: 2vw 2vh 2vw 2vh;
   border-radius: 5px;
 }
 
@@ -30,7 +30,6 @@
   font-size: 0.8rem;
   color: #181818;
   font-family: 'supreme', sans-serif;
-  text-align: center;
 }
 
 .blogItem-discription::before {
