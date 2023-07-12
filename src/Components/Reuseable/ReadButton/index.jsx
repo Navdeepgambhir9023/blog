@@ -3,7 +3,7 @@ import './readButton.css'
 
 const ReadButton = () => {
     return (
-        <div class="read-button-wrapper">
+        <div id='read-button-wrapper'>
             <button className='read-button'>
                 Start Reading
             </button>

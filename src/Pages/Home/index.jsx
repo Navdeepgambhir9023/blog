@@ -6,6 +6,7 @@ import BlogList from '../../Components/Home/BlogList'
 import Landing from '../../Components/Home/landingPage'
 // import CustomCursor from '../../Components/Home/CustomCursor'
 // import CustomCursorManager from '../../Components/Home/CustomCursor/context/manager'
+import HomeFooter from '../../Components/Home/home-footer'
 
 
 
@@ -45,6 +46,7 @@ const Home = () => {
       <BlogList blogs={blogs} />
 
       {/* {Contact} */}
+      <HomeFooter />
     </div>
  
   )
