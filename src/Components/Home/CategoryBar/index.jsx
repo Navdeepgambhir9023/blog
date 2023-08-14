@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './categoryBar.css';
 
-const CategoryBar = ({ onSelectCategory, onSortBy }) => {
+const CategoryBar = ({ onSelectCategory}) => {
   const [btnLeft, setBtnLeft] = useState(0);
 
   const leftClick = () => {
@@ -28,6 +28,7 @@ const CategoryBar = ({ onSelectCategory, onSortBy }) => {
     setBtnLeft(680);
     onSelectCategory('Deals');
   };
+  
 
   return (
     <div>

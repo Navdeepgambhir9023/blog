@@ -1,4 +1,4 @@
-.blogList-parent-div{
+.blogList-parent-div {
     background-color: #fbfbfb;
 }
 
@@ -8,7 +8,7 @@
     grid-template-columns: 1fr 2fr;
     grid-gap: 8vh 2vw;
     padding: 1vh 10vw 1vh 10vw;
-    
+
     /* background: linear-gradient(85deg, rgba(0, 255, 221, 0.516), rgba(255, 65, 239, 0.452)),
 	url("data:image/svg+xml,%3Csvg viewBox='0 0 1000 1000' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E"); */
 }
@@ -18,7 +18,7 @@
     font-family: 'Nunito', sans-serif;
 }
 
-.blog-div{
+.blog-div {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 8vh 2vw;
@@ -29,19 +29,50 @@
     margin-bottom: 10vh;
 }
 
+
+/* Add this to your existing CSS file or create a new CSS file for pagination styles */
+
+/* ... (existing styles) */
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    background-color: #18181858;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pagination button.active {
+    background-color: #181818;
+    color: #fff;
+}
+
+/* ... (existing styles) */
+
+
+
 @media screen and (max-width: 1440px) {
     .blogList-wrap {
         grid-template-columns: 1fr 2fr;
         grid-gap: 8vh 2vw;
         padding: 1vh 5vw;
     }
-    
+
 }
 
 @media (max-width: 991px) {
-    .blogList-wrap{
+    .blogList-wrap {
         grid-template-columns: repeat(1, 1fr);
     }
+
     .side-div {
         margin: 0 1.5vw 0 1.5vw;
         order: 1;
@@ -54,7 +85,8 @@
         grid-gap: .5vh 4vh;
         margin: 0 2vh;
     }
-    .blog-div{
+
+    .blog-div {
         margin: 0 1.5vw 0 1.5vw;
         display: grid;
         grid-template-columns: repeat(1, 1fr);

@@ -27,7 +27,7 @@ const TopPost = () => {
                 </div>
             </div>
         </div>
-            )
+    )
 }
 
-            export default TopPost
+export default TopPost

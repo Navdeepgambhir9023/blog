@@ -9,13 +9,13 @@
 
 .toggle-btn {
   padding: 10px 40px;
-  background: transparent;
   width: 170px;
   cursor: pointer;
   position: relative;
   outline: none;
   text-align: center;
-  color: #181818;
+  color: #fbfbfb;
+  background-color: #2e2e2ebe;
   border: none;
   border-radius: 30px;
   font-size: 1rem;
@@ -26,13 +26,68 @@
   position: absolute;
   width: 170px;
   height: 45px;
-  background: #F5DDDD;
+  background: #181818;
   transition: .5s;
   border-radius: 30px;
 }
 
 @media screen and (max-width: 1024px) {
   .category-container {
-      width: 83vw;
+    width: 83vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .category-container {
+    width: 4vw;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  #btn {
+    display: none;
+    width: 170px;
+    height: 45px;
+    background: #F5DDDD;
+    transition: .5s;
+    border-radius: 30px;
+  }
+
+  .toggle-btn {
+     display: inline-block;
+     margin: 2px;
+     padding: 12px 18px;
+     background-color: #2e2e2e;
+     transition: all 200ms ease;
+     text-transform: uppercase;
+     color: white;
+     border: 0;
+     font-size: 12px;
+     line-height: 20px;
+     letter-spacing: 2px;
+     line-height: inherit;
+     text-decoration: none;
+     border-radius: 50px;
+     cursor: pointer;
+  }
+  .toggle-btn:hover {
+    background-color: #5c606c;
+    color: #fff;
+  }
+
+  .toggle-btn:active {
+    background-color: #43464d;
+  }
+
+  .toggle-btn-wrapper {
+    width: auto;
+  }
+
+  .toggle-btn-wrapper a {
+    text-decoration: none;
+  }
+
+  .toggle-btn:active {
+    background-color: #43464d;
   }
 }

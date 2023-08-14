@@ -104,4 +104,105 @@ export const blogList = [{
         createdAt: ' March 27, 2023',
         cover: '/Assets/images/lake.jpg',
     },
+    {
+        name: 'blog-8',
+        title: 'Mastering Data Structures: A Comprehensive Guide',
+        category: 'Programming',
+        subCategory: ['coding', 'algorithms', 'software-development'],
+        description: `
+      <div>
+        <p>Data structures are the building blocks of efficient software development. In this guide, we'll delve into essential data structures and their use cases.</p>
+        <h3>1. Arrays and Linked Lists</h3>
+        <p>Learn the differences between arrays and linked lists and when to use each for optimal performance.</p>
+        <!-- Add more data structure topics -->
+        <h3>7. Graphs and Trees</h3>
+        <p>Explore graph and tree data structures and understand their role in solving complex problems.</p>
+        <p>By mastering data structures, you'll become a more skilled and confident programmer.</p>
+      </div>
+    `,
+        authorName: 'Alex Carter',
+        authorAvatar: '/Assets/images/author.png',
+        createdAt: 'August 14, 2023',
+        cover: '/Assets/images/data-structures.jpg',
+    }, {
+        name: 'blog-9',
+        title: 'The Future of Artificial Intelligence: Trends and Insights',
+        category: 'Tech',
+        subCategory: ['AI', 'machine-learning', 'future-tech'],
+        description: `
+      <div>
+        <p>Artificial Intelligence is reshaping industries and driving technological advancements. Discover the latest trends and insights in the world of AI.</p>
+        <h3>1. AI in Healthcare</h3>
+        <p>Explore how AI is revolutionizing healthcare through diagnostics, treatment optimization, and personalized medicine.</p>
+        <!-- Add more AI trends and applications -->
+        <h3>7. Ethics in AI</h3>
+        <p>Discuss the ethical considerations surrounding AI development and deployment.</p>
+        <p>The future of AI is bright, and staying informed is essential to navigating this rapidly evolving field.</p>
+      </div>
+    `,
+        authorName: 'Sophia Roberts',
+        authorAvatar: '/Assets/images/author.png',
+        createdAt: 'August 15, 2023',
+        cover: '/Assets/images/ai-future.jpg',
+    }, {
+        name: 'blog-10',
+        title: 'Navigating Cryptocurrency Investments: A Beginner\'s Guide',
+        category: 'Finance',
+        subCategory: ['investing', 'cryptocurrency', 'personal-finance'],
+        description: `
+      <div>
+        <p>Cryptocurrency investments have gained significant attention. This guide provides beginners with essential information and tips for entering the crypto market.</p>
+        <h3>1. Understanding Blockchain</h3>
+        <p>Learn the basics of blockchain technology, the foundation of cryptocurrencies.</p>
+        <!-- Add more cryptocurrency investment topics -->
+        <h3>7. Security and Risk Management</h3>
+        <p>Explore strategies to secure your crypto assets and manage investment risks.</p>
+        <p>By understanding the nuances of cryptocurrency investments, you can make informed financial decisions.</p>
+      </div>
+    `,
+        authorName: 'Michael Anderson',
+        authorAvatar: '/Assets/images/author.png',
+        createdAt: 'August 16, 2023',
+        cover: '/Assets/images/cryptocurrency.jpg',
+    }, {
+        name: 'blog-11',
+        title: 'Savings Strategies for a Secure Financial Future',
+        category: 'Finance',
+        subCategory: ['saving', 'financial-planning', 'budgeting'],
+        description: `
+      <div>
+        <p>Building a secure financial future requires smart saving strategies. This guide provides practical tips to help you achieve your long-term financial goals.</p>
+        <h3>1. The Power of Compound Interest</h3>
+        <p>Discover how compound interest can significantly boost your savings over time.</p>
+        <!-- Add more savings strategies -->
+        <h3>7. Building an Emergency Fund</h3>
+        <p>Learn the importance of an emergency fund and how to create one to protect against unexpected expenses.</p>
+        <p>By adopting effective saving habits, you can pave the way for a financially stable future.</p>
+      </div>
+    `,
+        authorName: 'Emma Walker',
+        authorAvatar: '/Assets/images/author.png',
+        createdAt: 'August 17, 2023',
+        cover: '/Assets/images/savings.jpg',
+    }, {
+        name: 'blog-12',
+        title: 'E-Commerce Revolution: Navigating Online Retail Success',
+        category: 'Deals',
+        subCategory: ['e-commerce', 'online-business', 'retail'],
+        description: `
+      <div>
+        <p>The e-commerce landscape is rapidly evolving. This blog post explores key strategies for building a successful online retail business in today's competitive market.</p>
+        <h3>1. Choosing the Right E-Commerce Platform</h3>
+        <p>Compare different e-commerce platforms and find the one that aligns with your business goals.</p>
+        <!-- Add more e-commerce strategies -->
+        <h3>7. Customer Retention and Loyalty</h3>
+        <p>Discover techniques to retain customers and build long-lasting brand loyalty.</p>
+        <p>Embracing e-commerce best practices can lead to a thriving online retail venture.</p>
+      </div>
+    `,
+        authorName: 'Oliver Hughes',
+        authorAvatar: '/Assets/images/author.png',
+        createdAt: 'August 18, 2023',
+        cover: '/Assets/images/e-commerce.jpg',
+    },
 ];
