@@ -21,7 +21,6 @@ const HomeFooter = () => {
           </div>
         </div>
 
-
         {/* footer Nav */}
 
         <div id='foot-nav-div'>
@@ -40,9 +39,7 @@ const HomeFooter = () => {
             </div>
           </div>
         </div>
-
         <div>
-
         </div>
       </div>
     </div>

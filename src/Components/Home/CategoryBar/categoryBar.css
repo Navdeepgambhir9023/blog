@@ -1,0 +1,38 @@
+.category-container {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 44.3vw;
+  margin: 0 auto 10vh auto;
+  position: relative;
+}
+
+.toggle-btn {
+  padding: 10px 40px;
+  background: transparent;
+  width: 170px;
+  cursor: pointer;
+  position: relative;
+  outline: none;
+  text-align: center;
+  color: #181818;
+  border: none;
+  border-radius: 30px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+#btn {
+  position: absolute;
+  width: 170px;
+  height: 45px;
+  background: #F5DDDD;
+  transition: .5s;
+  border-radius: 30px;
+}
+
+@media screen and (max-width: 1024px) {
+  .category-container {
+      width: 83vw;
+  }
+}

@@ -116,7 +116,7 @@
 
 
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 375px) {
   #home-footer-container .home-foot-content {
     flex-direction: column;
     align-items: center;

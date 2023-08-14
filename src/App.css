@@ -29,6 +29,11 @@ h3 {
     font-weight: 450;
 }
 
+body {
+    background-color: #fbfbfb;
+}
+
+
 /* Paragraph font */
 p {
     font-family: 'Nunito', sans-serif;

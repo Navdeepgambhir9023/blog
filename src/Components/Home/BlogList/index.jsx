@@ -1,23 +1,48 @@
-import React from 'react';
+import React, { useState } from 'react';
 import BlogItem from './BlogItem';
 import './bloglist.css';
 import TopPost from '../sideDivComponent/topPost';
-import Category from '../sideDivComponent/category';
+import CategoryBar from '../CategoryBar';
 
 const BlogList = ({ blogs }) => {
+  const [sortedBlogs, setSortedBlogs] = useState(blogs);
+
+  const handleCategorySelect = (category) => {
+    const filteredBlogs = category === 'All' ? blogs : blogs.filter(blog => blog.category === category);
+    setSortedBlogs(filteredBlogs);
+  };
+
+  const handleSortBy = () => {
+    const sorted = [...sortedBlogs].sort((a, b) => {
+      // First, compare by category
+      const categoryComparison = a.category.localeCompare(b.category);
+
+      // If categories are the same, then compare by title
+      if (categoryComparison === 0) {
+        return a.title.localeCompare(b.title);
+      }
+
+      return categoryComparison;
+    });
+
+    setSortedBlogs(sorted);
+  };
+
   return (
     <div className='blogList-parent-div'>
-      {/* <h1 className='divider'>Blogs</h1> */}
+      <div className='category-bar'>
+        <CategoryBar
+          onSelectCategory={handleCategorySelect}
+          onSortBy={handleSortBy}
+        />
+      </div>
       <div className='blogList-wrap'>
         <div className='blog-div'>
-          {blogs.map((blogs) => (
-            <BlogItem blog={blogs} key={blogs.name} />
+          {sortedBlogs.map((blog) => (
+            <BlogItem blog={blog} key={blog.name} />
           ))}
         </div>
         <div className='side-div'>
-          <div className='category-div'>
-            <Category />
-          </div>
           <div className='topPost-div'>
             <TopPost />
           </div>
@@ -27,4 +52,4 @@ const BlogList = ({ blogs }) => {
   );
 };
 
-export default BlogList;    
+export default BlogList;
