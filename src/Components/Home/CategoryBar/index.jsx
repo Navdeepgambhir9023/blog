@@ -10,22 +10,22 @@ const CategoryBar = ({ onSelectCategory}) => {
   };
 
   const middleClick1 = () => {
-    setBtnLeft(170);
+    setBtnLeft(190);
     onSelectCategory('Programming');
   };
 
   const middleClick2 = () => {
-    setBtnLeft(340);
+    setBtnLeft(380);
     onSelectCategory('Technology');
   };
 
   const middleClick3 = () => {
-    setBtnLeft(510);
+    setBtnLeft(570);
     onSelectCategory('Finance');
   };
 
   const rightClick = () => {
-    setBtnLeft(680);
+    setBtnLeft(760);
     onSelectCategory('Deals');
   };
   
@@ -36,7 +36,7 @@ const CategoryBar = ({ onSelectCategory}) => {
         <div id='btn' style={{ left: `${btnLeft}px` }}></div>
         <button
           type='button'
-          className='toggle-btn'
+          className='toggle-btn-left'
           onClick={leftClick}
         >
           All
@@ -64,7 +64,7 @@ const CategoryBar = ({ onSelectCategory}) => {
         </button>
         <button
           type='button'
-          className='toggle-btn'
+          className='toggle-btn-right'
           onClick={rightClick}
         >
           Deals

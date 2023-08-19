@@ -1,7 +1,7 @@
 #read-button-wrapper .read-button {
     display: inline-block;
     padding: 12px 18px;
-    background-color: #1a1b1f;
+    background-color: #181818;
     transition: all 200ms ease;
     text-transform: uppercase;
     color: white;
@@ -15,24 +15,25 @@
     cursor: pointer;
 }
 
-.read-button:hover {
+#read-button-wrapper .read-button:hover {
     background-color: #5c606c;
-    color: #fff;
+    border-radius: 50px;
+    transition: all 500ms ease;
 }
 
-.read-button:active {
+#read-button-wrapper .read-button:active {
     background-color: #43464d;
 }
 
-.read-button-wrapper {
+#read-button-wrapper .read-button-wrapper {
     width: auto;
 }
 
-.read-button-wrapper a {
+#read-button-wrapper .read-button-wrapper a {
     text-decoration: none;
 }
 
-.read-button:active {
+#read-button-wrapper .read-button:active {
     background-color: #43464d;
 }
 
