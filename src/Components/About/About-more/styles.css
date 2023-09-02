@@ -1,0 +1,55 @@
+#about-more {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  margin: 0 0 0 0;
+}
+
+.about-more-content {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+#aboutMoreRight {
+  display: flex;
+  flex-direction: column;
+}
+
+#aboutMoreRight div {
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+}
+
+#aboutMoreRight h1 {
+  color: #DAB38C;
+  font-family: Array;
+  font-size: 5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1px;
+}
+
+#aboutMoreRight p {
+  color: #502902;
+  font-family: Khand;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1px;
+  margin: 1vh 0 1vh 0;
+  width: 80%;
+}
+
+
+#aboutMoreLeft {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}

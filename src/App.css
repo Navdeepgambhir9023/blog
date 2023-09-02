@@ -16,6 +16,21 @@
     src: url(../public/Assets/Fonts/WhyteInktrap-Heavy.woff2);
 }
 
+@font-face {
+    font-family: 'WhyteInktrapHeavy';
+    src: url(../public/Assets/Fonts/WhyteInktrap-Heavy.woff2);
+}
+
+@font-face {
+    font-family: 'Array';
+    src: url(../public/Assets/Fonts/Array-Regular.woff2);
+}
+
+@font-face {
+    font-family: 'Khand';
+    src: url(../public/Assets/Fonts/Khand-Regular.woff2);
+}
+
 * {
     margin: 0;
     padding: 0;

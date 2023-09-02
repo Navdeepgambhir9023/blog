@@ -1,3 +1,63 @@
+.light {
+  background-color: #fbfbfb;
+  color: #181818;
+  /* Define the accent color variable */
+}
+
+.light .mode-toggle button {
+  background-color: var(--accent-color);
+  color: #fbfbfb;
+}
+
+/* Dark mode */
+.dark {
+  background-color: #181818;
+  color: #fbfbfb;
+  /* Define the accent color variable */
+}
+
+.dark .mode-toggle button {
+  background-color: var(--accent-color);
+  color: #fbfbfb;
+}
+
+/* Light mode */
+.light {
+  /* ... other styles ... */
+  --text-color: #181818;
+  /* Define text color for light mode */
+}
+
+.light .author-name {
+  color: var(--text-color);
+  /* Use text color variable */
+}
+
+.light .created-at {
+  color: var(--text-color);
+  /* Use text color variable */
+}
+
+/* Dark mode */
+.dark {
+  /* ... other styles ... */
+  --text-color: #fbfbfb;
+  /* Define text color for dark mode */
+}
+
+.dark .author-name {
+  color: var(--text-color);
+  /* Use text color variable */
+}
+
+.dark .created-at {
+  color: var(--text-color);
+  /* Use text color variable */
+}
+
+
+/* Other styles remain the same */
+/* ... */
 .blog-wrap {
   width: 90%;
   padding: 20px;
@@ -18,10 +78,17 @@
   margin: 20px 0;
 }
 
+.blog-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  margin: 10px 0;
+}
+
 .blog-title-div h1 {
   font-size: 2.5rem;
   font-weight: 600;
-  color: #181818;
   margin: 0;
 }
 
@@ -39,28 +106,63 @@
 }
 
 .blog-desc {
-  margin: 20px;
+  margin: 20px auto;
+  width: 60%;
 }
 
-.blog-desc p{
+.blog-desc p {
   margin: 20px;
   font-size: .9rem;
   font-weight: 400;
-  color: #181818;
   line-height: 1.5;
 }
 
 .image-div {
+  display: flex;
+  justify-content: center;
   width: 100%;
-  height: 30rem;
   margin: auto;
+  align-items: center;
 }
 
 .image-div img {
-  width: 100%;
+  width: 70%;
   height: 100%;
   object-fit: cover;
   border-radius: 2%;
+}
+
+.mode-toggle img {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  outline: none;
+}
+
+.mode-toggle button {
+  background-color: #181818;
+  color: #fbfbfb;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .blog-wrap {
+    width: 90%;
+  }
+
+  .blog-desc {
+    width: 80%;
+  }
+
+  .image-div img {
+    width: 100%;
+    height: 100%;
+  }
 }
 
 @media (max-width: 768px) {
@@ -86,7 +188,6 @@
   .blog-title-div h1 {
     font-size: 2rem;
     font-weight: 600;
-    color: #181818;
     margin: 0;
   }
 
@@ -100,8 +201,10 @@
     justify-content: space-between;
     align-items: center;
     margin: 1.5em 0;
-
     padding: 0;
   }
 
+  .blog-desc {
+    width: 100%;
+  }
 }

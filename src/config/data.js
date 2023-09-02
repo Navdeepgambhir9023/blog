@@ -1,38 +1,44 @@
+import './data.css'
+
 export const blogList = [{
         name: '7 CSS tools you should be using',
         title: '7 CSS tools you should be using',
         category: 'Programming',
         subCategory: ['frontend', 'ui/ux', 'design'],
         description: 
-        <div> 
-            
-            <p>Cascading Style Sheets (CSS) is a fundamental technology for styling websites, enabling developers to create beautiful and functional user interfaces. However, writing CSS can be a challenging and time-consuming process, especially as websites grow more complex. Fortunately, there are many tools available to make working with CSS easier and more efficient. In this blog post, we'll look at seven CSS tools that you should consider using to streamline your workflow and improve the quality of your code.</p>
         
+           <div id = 'CssToolsBlogPost'>
+             <p> Cascading Style Sheets(CSS) is a fundamental technology
+           for styling websites, enabling developers to create beautiful and functional user interfaces.However, writing CSS can be a challenging and time - consuming process, especially as websites grow more complex.Fortunately, there are many tools available to make working with CSS easier and more efficient.In this blog post, we 'll look at seven CSS tools that you should consider using to streamline your workflow and improve the quality of your code.</p>
 
-          <h3>1. CSS Preprocessors</h3>
-           <p>CSS preprocessors such as Sass, Less, and Stylus allow developers to write CSS in a more powerful and flexible way. Preprocessors extend the functionality of CSS by adding features such as variables, nesting, and mixins, which make it easier to write and maintain complex stylesheets. Preprocessors also enable developers to reuse code across multiple projects, reducing the amount of redundant code they have to write.</p>
-        
-          <h3>2. CSS Frameworks</h3>
-          <p>CSS frameworks such as Bootstrap, Foundation, and Bulma provide pre-built components and styles that developers can use to quickly create  responsive and mobile-friendly websites. Frameworks save developers time by providing a consistent and well-documented set of design patterns and components, reducing the need to create custom styles from scratch.</p>
-        
-          <h3>3. CSS Grid Systems</h3>
-          <p> CSS grid systems such as CSS Grid and Flexbox provide powerful layout tools that allow developers to create complex, responsive layouts with ease. Grid systems enable developers to create layouts that are flexible and adaptive to different screen sizes and device types, reducing the need for complex media queries and JavaScript calculations.</p>
-        
-          <h3>4. CSS Reset</h3>
-          <p> CSS reset stylesheets such as Normalize.css and Reset.css provide a baseline set of styles that reset browser-specific defaults and ensure a consistent appearance across different browsers and devices. Reset stylesheets help ensure that developers start with a clean slate when building their styles, reducing the likelihood of unexpected layout or rendering issues.</p>
-        
-          <h3>5. CSS Linters</h3>
-          <p> CSS linters such as Stylelint and CSSLint analyze CSS code for errors, warnings, and best practices, helping developers catch issues early in the development process. Linters enforce coding standards and conventions, improve code quality, and make it easier to maintain large and complex stylesheets over time.</p>
-        
-          <h3>6. CSS Animations and Transitions</h3>
-          <p> CSS animations and transitions enable developers to add dynamic and engaging visual effects to their websites without relying on JavaScript. Animations and transitions can be used to create hover effects, page transitions, loading spinners, and more, adding polish and interactivity to the user experience.</p>
-        
-          <h3>7. CSS Custom Properties</h3>
-          <p>CSS custom properties, also known as CSS variables, allow developers to define reusable values that can be used throughout their stylesheets. Custom properties make it easier to maintain consistent design patterns and reduce the amount of duplicated code in stylesheets. They also make it easier to update styles across multiple pages and components, as changes to custom properties will be automatically propagated throughout the stylesheet.</p>
-        
-          <p>In conclusion, CSS is a powerful and essential technology for creating beautiful and functional websites, but it can also be challenging to work with. By using the tools mentioned above, developers can streamline their workflow, reduce the amount of redundant code they have to write, and improve the quality of their code. Whether you're a beginner or an experienced developer, these tools can help you become more productive and create better websites.</p>
-        
-        </div>,
+             <h3 > 1. CSS Preprocessors </h3> 
+             <p> CSS preprocessors such as Sass, Less, and Stylus allow developers to write CSS in a more powerful and flexible way.Preprocessors extend the functionality of CSS by adding features such as variables, nesting, and mixins, which make it easier to write and maintain complex stylesheets.Preprocessors also enable developers to reuse code across multiple projects, reducing the amount of redundant code they have to write. </p>
+
+             <h3> 2. CSS Frameworks </h3> 
+             <p> CSS frameworks such as Bootstrap, Foundation, and Bulma provide pre - built components and styles that developers can use to quickly create responsive and mobile - friendly websites.Frameworks save developers time by providing a consistent and well - documented set of design patterns and components, reducing the need to create custom styles from scratch. </p>
+
+             <h3> 3. CSS Grid Systems </h3> 
+             <p> CSS grid systems such as CSS Grid and Flexbox provide powerful layout tools that allow developers to create complex, responsive layouts with ease.Grid systems enable developers to create layouts that are flexible and adaptive to different screen sizes and device types, reducing the need
+           for complex media queries and JavaScript calculations. </p>
+
+             <h3> 4. CSS Reset </h3> 
+             <
+             p> CSS reset stylesheets such as Normalize.css and Reset.css provide a baseline set of styles that reset browser - specific defaults and ensure a consistent appearance across different browsers and devices.Reset stylesheets help ensure that developers start with a clean slate when building their styles, reducing the likelihood of unexpected layout or rendering issues. </p>
+
+             <h3 > 5. CSS Linters </h3> 
+             <p > CSS linters such as Stylelint and CSSLint analyze CSS code
+           for errors, warnings, and best practices, helping developers
+           catch issues early in the development process.Linters enforce coding standards and conventions, improve code quality, and make it easier to maintain large and complex stylesheets over time. </p>
+
+             <h3 > 6. CSS Animations and Transitions </h3> 
+             <p> CSS animations and transitions enable developers to add dynamic and engaging visual effects to their websites without relying on JavaScript.Animations and transitions can be used to create hover effects, page transitions, loading spinners, and more, adding polish and interactivity to the user experience. </p>
+
+             <h3> 7. CSS Custom Properties </h3> 
+             <p> CSS custom properties, also known as CSS variables, allow developers to define reusable values that can be used throughout their stylesheets.Custom properties make it easier to maintain consistent design patterns and reduce the amount of duplicated code in stylesheets.They also make it easier to update styles across multiple pages and components, as changes to custom properties will be automatically propagated throughout the stylesheet. </p>
+
+             <p> In conclusion, CSS is a powerful and essential technology
+           for creating beautiful and functional websites, but it can also be challenging to work with.By using the tools mentioned above, developers can streamline their workflow, reduce the amount of redundant code they have to write, and improve the quality of their code.Whether you 're a beginner or an experienced developer, these tools can help you become more productive and create better websites.</p> 
+           </div>,
         authorName: 'Navdeep Singh',
         authorAvatar: '/Assets/images/author.png',
         createdAt: ' March 27, 2023',
@@ -73,10 +79,70 @@ export const blogList = [{
     },
     {
         name: 'blog-5',
-        title: 'Loaded BBQ Baked Potatoes',
+        title: 'What Are Credit Cards? A Simple Guide for Beginners',
         category: 'Finance',
-        subCategory: ['bbq', 'food', 'lifestyle'],
-        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        subCategory: ['Credit Card', 'Credit', 'Finance'],
+        description: 
+        <div id='blog-5'>
+
+          <h2>Introduction</h2>
+          <p> Imagine you 're out with friends, and the restaurant bill arrives. You reach into your wallet, pull out a small plastic card, and confidently cover the entire cost. That'
+          s the power of a credit card, a financial tool that has become an integral part of our lives.If you 're new to the world of credit cards or just want to understand them better, this guide is for you. We'
+          ll explain credit cards in a friendly and straightforward way. </p>
+
+          <h2> What is a Credit Card? </h2>
+          <p> At its core, a credit card is like a short - term loan that a bank or financial institution provides you with.It allows you to make purchases and pay for services up to a certain credit limit. Here's how it works:
+          <ul>
+            <li>
+              <b>Credit Limit:</b> When you open a credit card account, the issuer sets a credit limit. This is the maximum
+              amount of money you're allowed to borrow using the card.
+            </li>
+            <li>
+               <b> Credit Card Use:</b> You can use the credit card to make purchases at various establishments, both online and offline.It 's like having a digital wallet in your pocket.
+            </li>
+            <li>
+               <b>Billing Cycle:</b> Credit cards have billing cycles, typically monthly.During this time, you can make purchases, and all of these transactions are recorded.
+            </li>
+            <li>
+               <b>Statement:</b> At the end of the billing cycle, the credit card company sends you a statement that lists all your transactions during that period.This statement is crucial because it shows you how much you owe.
+            </li>
+            <li>
+               <b>Due Date:</b> The statement also includes a due date.This is the date by which you need to pay at least a minimum amount to avoid penalties and interest charges.
+            </li>
+            <li>
+               <b>Interest and Fees:</b> If you don 't pay the full balance by the due date, you'
+              ll be charged interest on the remaining amount.Credit cards may also have annual fees and other charges, so it 's essential to read the fine print.
+            </li>
+          </ul>
+</p>
+
+          <h2> Credit Card Benefits </h2>
+         <h5> So, why use a credit card ? Here are some benefits : </h5>
+          <ul>
+            <li>
+              <b>Convenience:</b>   
+               Credit cards are widely accepted, making them incredibly convenient
+               for everyday purchases, travel bookings, and online shopping.
+            </li>
+            <li>
+                <b>Security:</b> 
+               Credit cards often come with fraud protection.If your card is lost or stolen, you can report it, and the issuer will usually cover any unauthorized charges.
+            </li>
+            <li>
+                <b>Rewards:</b>
+                 Many credit cards offer rewards, like cashback, points, or miles, which can lead to significant savings or even free travel.
+            </li>
+            <li>
+                <b>Build Credit:</b>
+                  Using a credit card responsibly can help build your credit history, which is essential
+                  for future loans, such as a mortgage or car loan.
+            </li>
+          </ul>
+
+          <h2> Understanding Credit Card Payments </h2>
+
+        </div>
+        ,
         authorName: 'Navdeep Singh',
         authorAvatar: '/Assets/images/author.png',
         createdAt: ' March 27, 2023',
