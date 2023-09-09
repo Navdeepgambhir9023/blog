@@ -79,8 +79,9 @@
   padding: 0.7rem 1.2rem;
   border-radius: 5px;
   background-color: transparent;
-  font-size: 1rem;
-  font-weight: 500;
+  color: #181818;
+  font-size: 1.2rem;
+  font-weight: 600;
   cursor: pointer;
 }
 
@@ -169,8 +170,9 @@
   padding: 0.7rem 1.2rem;
   border-radius: 5px;
   background-color: transparent;
+  color: #181818;
   font-size: 1rem;
-  font-weight: 500;
+  font-weight: 600;
   cursor: pointer;
 }
 
@@ -186,42 +188,155 @@
   border-radius: 50px;
 }
 
-
-
-
 @media screen and (min-width: 1500px) {
-  #about-content{
+  .AboutLanding p {
+    font-size: 1.5rem;
+  }
+
+  #about-content {
     margin: 0 10vw;
   }
+
   #about-content .text {
     width: 40%;
   }
-  #main-content h1{
+
+  #main-content h1 {
     font-size: 5rem;
   }
-  #main-content p {
-    font-size: 1.5rem;
-  }
+
   #about-content h1 {
     font-size: 3rem;
   }
-  #about-content p {
+
+  #main-content .hire-btn button {
+    padding: 0.7rem 1.5rem;
     font-size: 1.5rem;
+  }
+
+  #redirect-btns button {
+    padding: 0.9rem 1.5rem;
+    font-size: 1.2rem;
   }
 }
 
+@media screen and (max-width: 913px) {
 
+  .AboutLanding p {
+    font-size: 1rem;
+  }
 
+  #main-content h1 {
+    font-size: 3rem;
+    margin: auto;
+  }
 
+  .img img {
+    width: 40vw;
+  }
 
-@media screen and (max-width: 768px) {
   #about-content {
     display: flex;
     flex-direction: column;
     height: 100%;
   }
+
+  #about-content .text {
+    width: 80%;
+    margin: 5vh 0 0 0;
+  }
+
   #redirect-btns {
     width: 80%;
-    margin: 0 auto 5rem auto;
+    margin: 1rem auto 5rem auto;
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .AboutLanding p {
+    font-size: 0.7rem;
+  }
+
+  #about-content {
+    margin: 0;
+  }
+
+  #about-content .text {
+    width: 70%;
+  }
+
+  #main-content h1 {
+    font-size: 3rem;
+  }
+
+  .img img {
+    width: 40vw;
+  }
+
+  #about-content h1 {
+    font-size: 1rem;
+  }
+
+  #about-content .text {
+    width: 80%;
+    margin: 10vh 0 0 0;
+  }
+
+  #main-content .hire-btn button {
+    padding: 0.9rem 2rem;
+    font-size: 1rem;
+  }
+
+  #redirect-btns button {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.9rem;
+  }
+
+  #main-content .scroll-img-div img {
+    width: 8rem;
+    height: 8rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .AboutLanding p {
+    font-size: 0.5rem;
+  }
+
+  #about-content .text {
+    width: 90%;
+  }
+
+  #main-content h1 {
+    font-size: 2rem;
+  }
+
+  .img img {
+    width: 30vw;
+  }
+
+  #about-content .text {
+    width: 90%;
+    margin: 15vh 0 0 0;
+  }
+
+  #about-content h1 {
+    font-size: 1rem;
+  }
+
+  #main-content .hire-btn button {
+    padding: 0.7rem 1.2rem;
+    font-size: 0.8rem;
+  }
+
+  #redirect-btns button {
+    padding: 0.4rem 1rem;
+    font-size: 0.7rem;
+  }
+
+  #main-content .scroll-img-div img {
+    width: 5rem;
+    height: 5rem;
   }
 }

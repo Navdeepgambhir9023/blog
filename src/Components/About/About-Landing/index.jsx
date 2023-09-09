@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useMemo, useCallback } from 'react';
 import './styles.css';
 import './responsive.css';
-import HorizontalScroll from "react-scroll-horizontal";
+import Scroll from "react-scroll-horizontal";
 
 const AboutLanding = () => {
   const child = { width: `100vw`, height: `100%` };
@@ -16,6 +16,10 @@ const AboutLanding = () => {
       section.scrollIntoView({ behavior: 'smooth' });
     }
   }, [sectionIds]);
+
+  const handleHireButtonClick = () => {
+    scrollToSection(1); // Scroll to the "about-container"
+  };
 
   useEffect(() => {
     const handleScroll = (e) => {
@@ -42,51 +46,47 @@ const AboutLanding = () => {
 
   return (
     <div className="AboutLanding">
-      <HorizontalScroll reverseScroll={true}>
+      <Scroll reverseScroll={true}>
         {sectionIds.map((sectionId, index) => (
           <div key={index} style={child} id={sectionId}>
-            {index === 0 ?
-              (
-                <div id="main-content">
+            {index === 0 ? (
+              <div id="main-content">
+                <div>
+                  <h1>
+                    Hey,<span> I am Navdeep</span>
+                  </h1>
+                </div>
+                <div className='para-div'>
+                  <p>
+                    Welcome to my Portfolio, Please scroll down or click the button below to know more about me.
+                  </p>
+                </div>
+                <div className='hire-btn'>
+                  <button onClick={handleHireButtonClick}>
+                    Hire Me
+                  </button>
+                </div>
+                <div className='scroll-img-div'>
+                  <img src="Assets/images/scroller-img.svg" alt="scroll" />
+                </div>
+              </div>
+            ) : (
+              <div id="about-content">
+                <div className='text'>
+                  <h1>
+                    Navdeep Singh Gambhir
+                  </h1>
+                  <p>
+                    I am a self-taught frontend developer with a passion for innovation. With two years of experience in digital marketing, I bring a unique blend of skills to the table. Explore my work and let's collaborate on your next project for a brighter digital future.
+                  </p>
+                </div>
+                <div className='img'>
                   <div>
-                    <h1>
-                      Hey!,<span> I am Navdeep</span>
-                    </h1>
-                  </div>
-                  <div className='para-div'>
-                    <p>
-                      Welcome to my Portfolio!, Please scroll down to know more about me.
-                    </p>
-                  </div>
-                  <div className='hire-btn'>
-                    <button>
-                      Hire Me
-                    </button>
-                  </div>
-                  <div className='scroll-img-div'>
-                    <img src="Assets/images/scroller-img.svg" alt="scroll" />
+                    <img src="Assets/images/Myimg.png" alt="" />
                   </div>
                 </div>
-              )
-              :
-              (
-                <div id="about-content">
-                  <div className='text'>
-                    <h1>
-                      Navdeep Singh Gambhir
-                    </h1>
-                    <p>
-                      I am a self-taught frontend developer with a passion for innovation. With two years of experience in digital marketing, I bring a unique blend of skills to the table. Explore my work and let's collaborate on your next project for a brighter digital future.
-                    </p>
-                  </div>
-                  <div className='img'>
-                    <div>
-                      <img src="Assets/images/Myimg.png" alt="" />
-                    </div>
-                  </div>
-                </div>
-              )
-            }
+              </div>
+            )}
             <div id="redirect-btns">
               <div>
                 <button>
@@ -101,8 +101,7 @@ const AboutLanding = () => {
             </div>
           </div>
         ))}
-      </HorizontalScroll>
-
+      </Scroll>
     </div>
   );
 }
