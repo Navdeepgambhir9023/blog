@@ -1,0 +1,17 @@
+/* Add your existing styles for PC screens */
+
+@media (max-width: 768px) {
+
+  /* Adjust styles for mobile screens */
+  .horizontal-scroll-container {
+    overflow-x: hidden;
+    /* Disable horizontal scrolling for smaller screens */
+    white-space: normal;
+    /* Allow line breaks for content */
+  }
+
+  .scroll-section {
+    width: 100%;
+    /* Make sections take full width on mobile screens */
+  }
+}

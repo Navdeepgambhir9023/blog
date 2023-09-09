@@ -8,22 +8,21 @@ const BlogItem = ({ blog: { name, description, title, createdAt, authorName, aut
 
   <div className='blogItem-wrap'>
     <div>
-    <h3>{title}</h3>
-    <img className='blogItem-cover' src={cover} alt="cover" />
-    <p className='blogItem-discription'>{description}</p>
-    <Chip label={category} />
-    <footer>
-      <div className="blogItem-author">
-        <img src={authorAvatar} alt="avatar" />
-        <div>
-          <h6>{authorName}</h6>
-          <p>{createdAt}</p>
+      <h3 id='main-title'>{title}</h3>
+      <img className='blogItem-cover' src={cover} alt="cover" />
+      <Chip label={category} />
+      <footer>
+        <div className="blogItem-author">
+          <img src={authorAvatar} alt="avatar" />
+          <div>
+            <h6>{authorName}</h6>
+            <p>{createdAt}</p>
+          </div>
         </div>
-      </div>
-      <Link className='blogItem-link' to={`/blog/${name}`}>
-        <ReadButton/>
-      </Link>
-    </footer>
+        <Link className='blogItem-link' to={`/blog/${name}`}>
+          <ReadButton />
+        </Link>
+      </footer>
     </div>
   </div>
 
