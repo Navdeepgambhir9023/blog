@@ -2,6 +2,7 @@ import React, { useState, useEffect, useMemo, useCallback } from 'react';
 import './styles.css';
 import './responsive.css';
 import Scroll from "react-scroll-horizontal";
+import { Link } from 'react-router-dom';
 
 const AboutLanding = () => {
   const child = { width: `100vw`, height: `100%` };
@@ -89,14 +90,18 @@ const AboutLanding = () => {
             )}
             <div id="redirect-btns">
               <div>
-                <button>
-                  Web Developer
-                </button>
+                <Link to="/Portfolio/webProjects">
+                  <button>
+                    Web Developer
+                  </button>
+                </Link>
               </div>
               <div>
-                <button>
-                  Digital Marketer
-                </button>
+                <Link to="/Portfolio/digitalMarketing">
+                  <button>
+                    Digital Marketer
+                  </button>
+                </Link>
               </div>
             </div>
           </div>

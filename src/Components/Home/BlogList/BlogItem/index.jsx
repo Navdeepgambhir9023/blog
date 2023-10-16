@@ -4,7 +4,7 @@ import Chip from '../../../Reuseable/categoryLable'
 import './BlogItem.css'
 import ReadButton from '../../../Reuseable/ReadButton'
 
-const BlogItem = ({ blog: { name, description, title, createdAt, authorName, authorAvatar, category, cover } }) =>
+const BlogItem = ({ blog: { name, title, createdAt, authorName, authorAvatar, category, cover } }) =>
 
   <div className='blogItem-wrap'>
     <div>

@@ -1,17 +1,12 @@
 [
     {
         "optionName": "About",
-        "path": "../../../about"
-    },
-
-    {
-        "optionName": "Blogs",
-        "path": "/blogs"
+        "path": "/about"
     },
 
     {
         "optionName": "Portfolio",
-        "path": "/portfolio"
+        "path": "/Portfolio"
     },
 
     {

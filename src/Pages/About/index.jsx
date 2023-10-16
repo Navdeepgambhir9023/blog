@@ -1,7 +1,6 @@
 import React from 'react'
 import Navbar from '../../Components/About/Navbar'
 import AboutLanding from '../../Components/About/About-Landing'
-import AboutMore from '../../Components/About/About-more'
 
 // import HomeFooter from '../../Components/Home/home-footer'
 
@@ -37,9 +36,6 @@ const Home = () => {
 
       {/* {landing Text and Landing SVG} */}
       <AboutLanding />
-
-      {/* {About More} */}
-      <AboutMore />
 
 
     </div>

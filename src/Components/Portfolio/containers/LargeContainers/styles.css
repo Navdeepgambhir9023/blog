@@ -1,0 +1,63 @@
+#portfoliolargecontainer {
+    display: flex;
+    flex-direction: column;
+    width: 32vw;
+    height: 100%;
+    margin: auto;
+    border-radius: 15px;
+    background-color: #181818;
+    color: #fbfbfb;
+}
+
+#portfoliolargecontainer h1 {
+    font-family: Inter;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 3vh 1vw;
+    padding: 0;
+}
+
+#portfoliolargecontainer p {
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 3vh 1vw;
+    padding: 0;
+    color: #CDCDCD;
+}
+
+
+.largecontentHolder button {
+    background-color: #181818;
+    border: 1px solid #fbfbfb;
+    border-radius: 5px;
+    color: #fbfbfb;
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 3vh 1vw;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.largecontentHolder button:hover {
+    background-color: #fbfbfb;
+    color: #181818;
+    transition: all 0.2s ease;
+    scale: 1.1;
+}
+
+.largecontentHolder button:active {
+    scale: 0.9;
+}
+
+.largecontentHolder button a {
+    color: #fbfbfb;
+    text-decoration: none;
+}

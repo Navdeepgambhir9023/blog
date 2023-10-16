@@ -101,7 +101,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #D8B85E;
+  background-color: #FFECB6;
   margin: 0;
   padding: 0;
 }
@@ -178,7 +178,7 @@
 
 #redirect-btns button:hover {
   background-color: #181818;
-  color: #D8B85E;
+  color: #FFECB6;
   transition: all 0.3s ease-in-out;
 }
 

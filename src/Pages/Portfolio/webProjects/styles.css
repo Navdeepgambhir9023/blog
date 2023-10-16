@@ -1,0 +1,61 @@
+#webProjectHolder {
+  display: grid;
+  grid-template-columns: 1fr 3.6fr;
+  background-color: #272727;
+  height: 100%;
+}
+
+#webProjectHolder .webContentHolder .webContentHolderTitle {
+  color: #FBFBFB;
+  font-family: Inter;
+  font-size: 3.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+}
+
+.webContentHolder>div:first-child {
+  display: inline-block;
+  margin: 5vh 3vw 5vh 0vw;
+  padding: 2vh 2vw;
+}
+
+.webContentHolder {
+  width: 90%;
+  margin: auto;
+  padding: 5vh 1vw;
+}
+
+.webContentHolder div {
+  margin: 0;
+  padding: 0;
+}
+
+.container-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+.content-box-1 {
+  color: #fbfbfb;
+  border-radius: 15px;
+  padding: 0;
+  margin: 0;
+}
+
+.content-box-2 {
+  background-color: #181818;
+  color: #fbfbfb;
+  border: 1px solid #808080;
+  border-radius: 15px;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}

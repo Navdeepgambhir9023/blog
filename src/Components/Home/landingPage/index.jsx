@@ -6,7 +6,6 @@ import { Link } from 'react-router-dom'
 const landing = () => {
   return (
     <div>
-    
       <div className='landing-div'>
         <div className='content-div'>
           <div className='content-grid'>

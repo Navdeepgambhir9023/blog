@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
+import ReactMarkdown from 'react-markdown'; 
 import { blogList } from '../../config/data';
 import Blogheader from '../../Components/Blog/blog-header';
 import AuthorIcons from '../../Components/Reuseable/socialIcon';
@@ -9,7 +10,7 @@ const Blog = () => {
   const { name } = useParams();
   const [blog, setBlog] = useState(null);
   const { authorName, authorAvatar, createdAt } = blog || {};
-  const [isDarkMode, setIsDarkMode] = useState(false); // State for light/dark mode
+  const [isDarkMode, setIsDarkMode] = useState(false);
 
   useEffect(() => {
     const foundBlog = blogList.find((blog) => blog.name === name);
@@ -18,7 +19,6 @@ const Blog = () => {
     }
   }, [name]);
 
-  // Toggle light/dark mode
   const toggleMode = () => {
     setIsDarkMode(!isDarkMode);
   };
@@ -74,7 +74,8 @@ const Blog = () => {
             <img src={blog.cover} alt='cover' />
           </div>
           <div className={`blog-desc ${isDarkMode ? 'dark' : 'light'}`}>
-            <p>{blog.description}</p>
+            {/* Render Markdown content as HTML */}
+            <ReactMarkdown>{blog.description}</ReactMarkdown>
           </div>
         </div>
       ) : (

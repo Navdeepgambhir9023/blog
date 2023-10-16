@@ -43,7 +43,7 @@ const Home = () => {
       <Landing />
 
       {/* {Blog List} */}
-      <BlogList blogs={blogs} />
+      <BlogList id="blogList" blogs={blogs} />
 
       {/* {Contact} */}
       <HomeFooter />
