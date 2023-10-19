@@ -8,7 +8,7 @@ const TopPost = () => {
         <div>
             <div className='side-div-section'>
                 <div className='side-div-head'>
-                    <h1>Top Posts</h1>
+                    <h2>Top Posts</h2>
                 </div>
                 <div className='side-div-list'>
                     <div>

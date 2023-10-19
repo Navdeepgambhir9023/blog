@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@200&family=Spectral:wght@200&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800&display=swap');
 
 @font-face {
     font-family: 'WhyteInktrapRegular';
@@ -31,17 +32,35 @@
     src: url(../public/Assets/Fonts/Khand-Regular.woff2);
 }
 
+@font-face {
+    font-family: 'Sentient';
+    src: url(../public/Assets/Fonts/Sentient-Regular.ttf);
+}
+@font-face {
+    font-family: 'Sentient-Medium';
+    src: url(../public/Assets/Fonts/Sentient-Medium.ttf);
+}
+
+
 * {
     margin: 0;
     padding: 0;
 }
 
-h1,
+h1 {
+    font-family: 'WhyteInktrapHeavy';
+    font-size: 3rem;
+    font-weight: 900;
+    font-style: heavy;
+}
+
 h2,
-h3 {
-    font-family: 'Supreme', sans-serif;
-    font-size: 1.9rem;
-    font-weight: 450;
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Sentient-Medium';
+    font-weight: 500;
 }
 
 body {
@@ -51,8 +70,9 @@ body {
 
 /* Paragraph font */
 p {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'outfit', sans-serif;
     font-size: 1rem;
+    font-weight: 300;
     line-height: 1.7;
 }
 

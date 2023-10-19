@@ -15,7 +15,6 @@
 .side-div-list p {
   font-size: .9rem;
   font-weight: 400;
-  font-family: 'Supreme', sans-serif;
   color: rgb(123, 123, 123);
   margin: 0;
 }
@@ -27,10 +26,9 @@
   padding: 0vh 1vw;
 }
 
-.side-div-head h1 {
+.side-div-head h2 {
   margin: 3vh 0 3vh 0vw;
   font-weight: 500;
-  font-family: 'chubbo', sans-serif;
 }
 
 .side-div-list hr {
@@ -43,7 +41,6 @@
   padding: .1vh 0vw;
   color: #0c0c0c;
   text-decoration: none;
-  font-family: 'Supreme', sans-serif;
   font-size: 1.25rem;
   font-weight: 400;
 }

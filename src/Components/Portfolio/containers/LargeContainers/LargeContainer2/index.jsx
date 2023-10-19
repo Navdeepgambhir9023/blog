@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import './infiniteScrollAnimation.css';
+import { Link } from 'react-router-dom';
 
 const InfiniteScrollAnimation = () => {
   useEffect(() => {
@@ -33,8 +34,7 @@ const InfiniteScrollAnimation = () => {
 
   return (
     <div>
-      <h1 style={{ textAlign: 'center' }}>My Projects</h1>
-
+      <h1 className='portfolio-heading' style={{ textAlign: 'center' }}>My Projects</h1>
       <div className="scroller" data-speed="fast">
         <ul className="tag-list scroller__inner">
           <li>HTML</li>
@@ -45,6 +45,13 @@ const InfiniteScrollAnimation = () => {
           <li>animation</li>
           <li>UI/UX</li>
         </ul>
+      </div>
+      <div className='button-holder'>
+        <Link to="/Portfolio/webProjects">
+          <button>
+            <h4>Go to my projects</h4>
+          </button>
+        </Link>
       </div>
     </div>
   );

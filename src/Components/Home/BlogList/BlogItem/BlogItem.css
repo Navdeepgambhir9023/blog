@@ -25,7 +25,6 @@
 #main-title {
   margin: 0.5rem 0 1rem 0;
   flex: 1;
-  font-family: 'Chubbo', sans-serif;
   text-align: center;
 }
 
@@ -36,7 +35,6 @@
   padding-right: 0.6rem;
   font-size: 0.8rem;
   color: #181818;
-  font-family: 'supreme', sans-serif;
 }
 
 .blogItem-discription::before {
@@ -76,7 +74,6 @@
   padding-top: 8px;
   color: #141414;
   font-weight: 500;
-  font-family: 'Supreme', sans-serif;
   margin: 0;
 }
 
@@ -85,5 +82,4 @@
   font-size: 0.7rem;
   color: #202020;
   font-weight: 500;
-  font-family: 'Nunito', sans-serif;
 }
