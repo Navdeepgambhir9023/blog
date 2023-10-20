@@ -13,7 +13,7 @@
     font-family: Inter;
     font-size: 3rem;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     line-height: normal;
     margin: 3vh 1vw;
     padding: 0;
@@ -60,4 +60,69 @@
 .largecontentHolder button a {
     color: #fbfbfb;
     text-decoration: none;
+}
+
+
+@media screen and (max-width: 1680px) {
+    #portfoliolargecontainer {
+        width: 90%;
+        margin: auto;
+    }
+
+    #portfoliolargecontainer h1 {
+        font-size: 2.5rem;
+    }
+
+    #portfoliolargecontainer p {
+        font-size: 1.5rem;
+    }
+}
+
+
+
+
+@media screen and (max-width: 1440px) {
+    #portfoliolargecontainer {
+        width: 90%;
+        margin: auto;
+    }
+
+    #portfoliolargecontainer h1 {
+        font-size: 2.2rem;
+    }
+
+    #portfoliolargecontainer p {
+        font-size: 1.3rem;
+    }
+}
+
+
+@media screen and (max-width: 1367px) {
+    #portfoliolargecontainer {
+        width: 90%;
+        margin: auto;
+    }
+
+    #portfoliolargecontainer h1 {
+        font-size: 1.8rem;
+    }
+
+    #portfoliolargecontainer p {
+        font-size: 1.1rem;
+    }
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    #portfoliolargecontainer {
+        width: 90%;
+        margin: auto;
+    }
+    #portfoliolargecontainer h1 {
+        font-size: 1.5rem;
+    }
+    #portfoliolargecontainer p {
+        font-size: 1rem;
+    }
 }

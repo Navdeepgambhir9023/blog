@@ -49,7 +49,7 @@ const InfiniteScrollAnimation = () => {
       <div className='button-holder'>
         <Link to="/Portfolio/webProjects">
           <button>
-            <h4>Go to my projects</h4>
+            <h5>Go to my projects</h5>
           </button>
         </Link>
       </div>

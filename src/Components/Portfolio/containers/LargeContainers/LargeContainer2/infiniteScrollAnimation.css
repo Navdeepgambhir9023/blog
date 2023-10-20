@@ -53,10 +53,6 @@
   border-radius: 50px;
 }
 
-
-
-
-
 @keyframes scroll {
   to {
     transform: translateX(-100%);

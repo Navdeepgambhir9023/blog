@@ -166,34 +166,59 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
     cover: '/Assets/images/lake.jpg',
   },
   {
-    name: 'blog-8',
-    title: 'Mastering Data Structures: A Comprehensive Guide',
+    name: 'Web Services: A Beginner\'s Guide',
+    title: 'Web Services: A Beginner\'s Guide',
     category: 'Programming',
-    subCategory: ['coding', 'algorithms', 'software-development'],
+    subCategory: ['Web-Services', 'Web-world', 'software-development'],
     description: `
-# Data Structures: A Comprehensive Guide
+## Describing Web services
 
-Data structures are the building blocks of efficient software development. In this guide, we'll delve into essential data structures and their use cases.
+A Web Service is any piece of software that make itself available over the internet and use a standerd xml message system.
 
-## 1. Arrays and Linked Lists
+XML is used to encode all communication to a web service. For example, a client invokes a web service by sending an XML message, then waits for a corresponding XML response. As all communication is in XML, web services are not tied to any one operating system or programming language as XML is not bounded with any platform or OS.
 
-Learn the differences between arrays and linked lists and when to use each for optimal performance.
+Web Services are self contained, modular, distributed, dynamic applications that can be described, published, located, or invoked over the network to create products, processes, and supply chains.These applications can be local, distributed, or web - based.Web services are built on top of open standards such as HTTP, XML,TCP / IP, and many more.
 
-## 2. Stacks and Queues
+Web service discriptions are expressed in the XML application known as Web Services Description Language(WSDL). WSDL is an XML - based language for describing Web services and how to access them.It is used to describe the Web services capabilities and requirements.It defines the name, data type and the protocol details for every service.It also defines how the services can be called, which data type it can handle and the location of the service.
 
-Understand how stacks and queues work and their applications in solving various computational problems.
 
-## 3. Trees and Graphs
+## Components of Web Services 
 
-Explore tree and graph data structures and understand their role in solving complex problems.
+ The basic web service platform is XML and HTTP. All the standard web services work using the following components −
 
-By mastering data structures, you'll become a more skilled and confident programmer.
+- **SOAP (Simple Object Access Protocol)** − This protocol is used for exchanging structured information in the implementation of web services in computer networks.
+
+- **UDDI (Universal Description, Discovery and Integration)** − This is a directory service where companies can register and search for web services.
+
+- **WSDL (Web Services Description Language)** − This is used to describe the location of the service and the operations that can be taken.
+
+
 `,
-    authorName: 'Alex Carter',
+    authorName: 'Navdeep Singh Gambhir',
     authorAvatar: '/Assets/images/author.png',
-    createdAt: 'August 14, 2023',
+    createdAt: 'October 19, 2023',
     cover: '/Assets/images/data-structures.jpg',
   },
+
+    {
+      name: 'Web Services: A Beginner\'s Guide',
+      title: 'Web Services: A Beginner\'s Guide',
+      category: 'Programming',
+      subCategory: ['Web-Services', 'Web-world', 'software-development'],
+      description: `
+
+
+
+`,
+      authorName: 'Navdeep Singh Gambhir',
+      authorAvatar: '/Assets/images/author.png',
+      createdAt: 'October 19, 2023',
+      cover: '/Assets/images/data-structures.jpg',
+    },
+
+
+
+
   {
     name: 'blog-9',
     title: 'The Future of Artificial Intelligence: Trends and Insights',

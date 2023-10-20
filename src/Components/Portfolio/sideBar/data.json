@@ -1,0 +1,21 @@
+
+{
+  "sideBarOptions": [
+    {
+      "navName": "About",
+      "path": "/about"
+    },
+    {
+      "navName": "Blogs",
+      "path": "/"
+    },
+    {
+      "navName": "Resume",
+      "path": "/resume"
+    },
+    {
+      "navName": "Contact",
+      "path": "/contact"
+    }
+  ]
+}
