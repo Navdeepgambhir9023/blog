@@ -5,6 +5,10 @@ const portfolio = () => {
   return (
     <div>
       <div id='redirector'>
+
+        <h1>
+          Under Build Will be live soon...
+        </h1>
         <button>
           <a href="/Portfolio/webProjects">Web Projects</a>
         </button>

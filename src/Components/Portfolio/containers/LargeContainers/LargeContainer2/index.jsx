@@ -39,11 +39,13 @@ const InfiniteScrollAnimation = () => {
         <ul className="tag-list scroller__inner">
           <li>HTML</li>
           <li>CSS</li>
-          <li>JS</li>
-          <li>SSG</li>
-          <li>webdev</li>
-          <li>animation</li>
+          <li>JAVASCRIPT</li>
+          <li>CANVAS</li>
+          <li>DESIGN</li>
+          <li>ANIMATIONS</li>
           <li>UI/UX</li>
+          <li>REACT</li>
+          <li>RESPONSIVE</li>
         </ul>
       </div>
       <div className='button-holder'>
