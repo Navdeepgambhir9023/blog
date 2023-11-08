@@ -32,7 +32,7 @@ In conclusion, CSS is a powerful and essential technology for creating beautiful
     authorName: 'Navdeep Singh',
     authorAvatar: '/Assets/images/author.png',
     createdAt: 'March 27, 2023',
-    cover: '/Assets/images/bird.jpg',
+    cover: 'https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210921184816/10-Best-CSS-Generator-Tools-You-Can-Use.jpg',
   },
   {
     name: 'What is Node.js',
@@ -51,7 +51,7 @@ Node.js ek open source, cross-platform, JavaScript runtime environment hai jo ki
     authorName: 'Navdeep Singh',
     authorAvatar: '/Assets/images/author.png',
     createdAt: 'March 27, 2023',
-    cover: '/Assets/images/flowe.jpg',
+    cover: 'https://stackify.com/wp-content/uploads/2018/09/Learn-Node-881x441-1.jpg',
   },
   {
     name: 'blog-3',
