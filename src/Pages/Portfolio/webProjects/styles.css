@@ -59,3 +59,30 @@
   justify-content: center;
   display: flex;
 }
+
+@media only screen and (max-width: 1680px) {
+  #webProjectHolder {
+    grid-template-columns: 1fr 3.6fr;
+  }
+  #webProjectHolder .webContentHolder .webContentHolderTitle {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  #webProjectHolder {
+    grid-template-columns: 1fr 3.6fr;
+  }
+  #webProjectHolder .webContentHolder .webContentHolderTitle {
+    font-size: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  #webProjectHolder {
+    grid-template-columns: 1fr 3.6fr;
+  }
+  #webProjectHolder .webContentHolder .webContentHolderTitle {
+    font-size: 2rem;
+  }
+}

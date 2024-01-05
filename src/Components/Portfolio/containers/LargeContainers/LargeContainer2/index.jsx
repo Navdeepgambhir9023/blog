@@ -34,18 +34,16 @@ const InfiniteScrollAnimation = () => {
 
   return (
     <div>
-      <h1 className='portfolio-heading' style={{ textAlign: 'center' }}>My Projects</h1>
+      <h1 className='portfolio-heading'> Featured Projects </h1>
       <div className="scroller" data-speed="fast">
         <ul className="tag-list scroller__inner">
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JAVASCRIPT</li>
-          <li>CANVAS</li>
-          <li>DESIGN</li>
-          <li>ANIMATIONS</li>
-          <li>UI/UX</li>
-          <li>REACT</li>
-          <li>RESPONSIVE</li>
+          <li><img src="https://navdeepgambhir9023.github.io/instagram/Images/27.jpg" alt="" /></li>
+          <li><img src="https://navdeepgambhir9023.github.io/instagram/Images/28.jpg" alt="" /></li>
+          <li><img src="https://navdeepgambhir9023.github.io/instagram/Images/29.jpg" alt="" /></li>
+          <li><img src="https://navdeepgambhir9023.github.io/instagram/Images/30.jpg" alt="" /></li>
+          <li><img src="https://navdeepgambhir9023.github.io/instagram/Images/31.jpg" alt="" /></li>
+          <li><img src="https://navdeepgambhir9023.github.io/instagram/Images/32.jpg" alt="" /></li>
+          <li><img src="https://navdeepgambhir9023.github.io/instagram/Images/33.jpg" alt="" /></li>
         </ul>
       </div>
       <div className='button-holder'>

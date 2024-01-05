@@ -21,7 +21,6 @@ const PortfolioSideBar = () => {
                   {option.navName}
                 </button>
               </Link>
-
             </li>
           ))}
         </ul>

@@ -1,9 +1,12 @@
 #sidebar {
   position: fixed;
-  height: 100%;
   background-color: #181818;
   height: 100vh;
   color: #fff;
+  width: 23vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #sidebar .sideBarTopContent {
@@ -11,7 +14,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 8vh 2vw;
+  margin: 5vh 2vw;
 }
 
 #sidebar img {
@@ -21,10 +24,43 @@
 }
 
 #sidebar h3 {
-  margin: 2vh 0;
+  margin: 1vh 0;
   font-size: 2rem;
   width: 80%;
   text-align: center;
+}
+
+#side-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 3vh 0 0;
+}
+
+#side-nav ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#side-nav ul li button {
+  margin: 1.2vh 0;
+  padding: 1rem 2rem;
+  font-size: 1.4rem;
+  width: 100%;
+  text-align: center;
+  border-radius: 10px;
+  transition: all 0.1s ease-in-out;
+}
+
+#side-nav ul li button:hover {
+  background-color: #ffe079;
+}
+
+#side-nav ul li button:active {
+  background-color: #ffe079;
+  transform: scale(0.9);
 }
 
 
@@ -45,7 +81,6 @@
   }
 }
 
-
 @media only screen and (max-width: 1440px) {
   #sidebar .sideBarTopContent {
     margin: 8vh 0vw;
@@ -62,7 +97,6 @@
     width: 80%;
   }
 }
-
 
 @media only screen and (max-width: 1366px) {
   #sidebar .sideBarTopContent {
@@ -81,10 +115,6 @@
   }
 }
 
-
-
-
-
 @media only screen and (max-width: 1024px) {
   #sidebar .sideBarTopContent {
     margin: 8vh 0vw;
@@ -97,6 +127,14 @@
     margin: 2vh 0;
     font-size: 1.2rem;
     width: 80%;
+  }
+  #side-nav ul li button {
+    font-size: 1.2rem;
+  }
+  #side-nav ul li button {
+    margin: 1.5vh 0;
+    padding: .7rem 1rem;
+    font-size: 1rem;
   }
 }
 

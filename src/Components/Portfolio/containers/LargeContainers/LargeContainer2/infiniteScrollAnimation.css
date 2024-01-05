@@ -1,10 +1,10 @@
 .portfolio-heading {
   font-size: 2rem;
-  margin: 2rem;
+  margin: 1.5rem 1rem;
 }
 
 .scroller {
-  max-width: 27vw;
+  max-width: 31vw;
   overflow: hidden;
   margin: .5rem;
 }
@@ -16,15 +16,25 @@
   animation: scroll 20s linear infinite;
 }
 
+.scroller__inner img {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  border: 2px solid #ffe079;
+  box-shadow: 0 0 10px #ffe079;
+  margin: 0 0rem;
+  transition: all 0.1s ease-in-out;
+  cursor: pointer;
+}
+
 .tag-list {
   list-style: none;
-  margin: 2rem;
-  padding: 1rem;
+  margin: 1rem 0;
+  padding: 1rem 0;
 }
 
 .tag-list li {
   font-size: 1.8rem;
-  padding: 0.5rem 1rem;
   background-color: transparent;
   border-radius: 40px;
 }
@@ -32,8 +42,9 @@
 .button-holder {
   margin: auto;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 }
+
 
 .button-holder button {
   margin: .2rem 0 2rem 0;
@@ -57,4 +68,27 @@
   to {
     transform: translateX(-100%);
   }
+}
+
+@media screen and (max-width: 1024px) {
+  .portfolio-heading {
+    font-size: 1.5rem;
+    margin: 1rem;
+  }
+  .scroller {
+    max-width: 27vw;
+    overflow: hidden;
+    margin: .5rem;
+  }
+  .tag-list li {
+    font-size: 1rem;
+    padding: 0.5rem 1.5rem;
+    background-color: transparent;
+    border-radius: 40px;
+  }
+  .button-holder {
+    margin: auto;
+    display: flex;
+  }
+
 }

@@ -1,0 +1,237 @@
+/* * {
+  background-color: #505050;
+} */
+
+#digital-marketing-container {
+  width: 50%;
+  margin: auto;
+  padding: 7vh 0 0 0;
+}
+
+#digital-marketing-container h1 {
+  font-size: 1.4rem;
+  margin: 0;
+  color: #181818;
+}
+
+#digital-marketing-container h2 {
+  font-size: 1.3rem;
+  margin: 0;
+  font-weight: 500;
+  font-family: 'outfit', sans-serif;
+  color: #181818;
+}
+
+#digital-marketing-container h3 {
+  font-size: 1.1rem;
+  margin: 0;
+  font-weight: 500;
+  font-family: 'outfit', sans-serif;
+  color: #181818;
+}
+
+#digital-marketing-container p {
+  font-size: 1rem;
+  margin: 0;
+  font-family: 'outfit', sans-serif;
+  font-weight: 400;
+  color: #181818;
+}
+
+
+#header-div nav {
+  z-index: 100;
+  padding: 0 0 0 0;
+  float: right;
+}
+
+#header-div .nav-wrapper {
+  width: 100%;
+  float: left;
+}
+
+#header-div .nav-wrapper ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#header-div .nav-wrapper ul li a {
+  text-decoration: none;
+  color: #000000;
+  margin: 0 5px;
+  font-size: 1rem;
+  font-family: 'outfit',
+    sans-serif;
+}
+
+/* end of navbar */
+
+
+
+/* About Section */
+#about-head {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 8vh 0 0 0;
+}
+
+#about-head p {
+  color: #71717A;
+}
+
+#about-head .profile {
+  margin: 0 1vw 0 0;
+}
+
+#about-head .profile img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 5px;
+}
+
+#about-head .about-head-content p:nth-child(2) {
+  margin: 1vh 0 0 0;
+}
+
+#about-me {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 3vh 0 0 0;
+}
+
+#about-me .about-me-content h2 {
+  width: 100%;
+  margin: 0 0 3vh 0;
+}
+
+#about-me .about-me-content div p {
+  color: #71717A;
+  font-family: 'outfit', sans-serif;
+  font-weight: 400;
+}
+
+#about-me .hire-me-div {
+  width: 100%;
+  margin: 3vh auto;
+  align-items: center;
+  background-color: #FFEDD5;
+  border-radius: 15px;
+}
+
+#about-me .hire-me-div div:nth-child(1) {
+  width: 95%;
+  margin: auto;
+  align-items: center;
+  padding: 2vh 0;
+}
+
+#about-me .hire-me-div div p:nth-child(1) {
+  color: #181818;
+  margin: 0;
+  font-weight: 400;
+  font-family: 'outfit', sans-serif;
+}
+
+#about-me .hire-me-div div p:nth-child(2) {
+  color: #181818;
+  margin: 0;
+  font-weight: 400;
+  font-family: 'outfit', sans-serif;
+  margin: 2vh 0 0 0;
+}
+
+#about-me .hire-me-div .btn-div {
+  width: 100%;
+  margin: 3vh 0 0 0;
+}
+
+#about-me .hire-me-div .btn-div button:nth-child(1) {
+  padding: 1vh 1vw;
+  border: none;
+  border-radius: 5px;
+  background-color: #181818;
+  color: #ffffff;
+  font-family: 'outfit', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  margin: 5px;
+  cursor: pointer;
+}
+
+#about-me .hire-me-div .btn-div button:nth-child(2) {
+  padding: 1vh 1vw;
+  border: none;
+  border-radius: 5px;
+  background-color: #f21919;
+  color: #ffffff;
+  font-family: 'outfit', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  margin: 5px;
+  cursor: pointer;
+}
+
+
+/* end of about section */
+
+
+
+/* Work Experience Section */
+
+#work-experience {
+  width: 100%;
+  margin: 6vh 0 0 0;
+}
+
+#work-experience h2 {
+  margin: 0 0 3vh 0;
+}
+
+#work-content {
+  width: 100%;
+  display: grid;
+  grid-gap: 1rem;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+  #digital-marketing-container {
+    width: 70%;
+  }
+}
+
+
+@media screen and (max-width: 580px) {
+  #digital-marketing-container {
+    width: 90%;
+  }
+
+  /* #digital-marketing-container h1 {
+    font-size: 1.3rem;
+  }
+
+  #digital-marketing-container h2 {
+    font-size: 1.2rem;
+  }
+
+  #digital-marketing-container h3 {
+    font-size: 1rem;
+  }
+
+  #digital-marketing-container p {
+    font-size: .9rem;
+  } */
+}
